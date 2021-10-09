@@ -60,3 +60,15 @@ body{
 #features{
     box-shadow: 0 10px 20px rgba(16,30,54,.15);
 }
+
+/* Get in tocuh */
+#get-in-touch {
+    background: linear-gradient(
+      90deg,
+      rgba(16, 44, 131, 1) 0%,
+      rgba(22, 111, 147, 1) 100%
+    );
+  }
+  #get-in-touch h2 {
+    font-weight: bold;
+  }

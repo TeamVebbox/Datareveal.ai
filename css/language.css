@@ -1,5 +1,5 @@
 #landing {
-  background-image: url("/images/5431981.jpg");
+  background-image: url(../images/5431981.jpg);
   background-size: cover;
   height: 600px;
   width: auto;
@@ -67,4 +67,9 @@
 }
 #get-in-touch h2 {
   font-weight: bold;
+}
+
+/* Features Section */
+#features{
+  box-shadow: 0 10px 20px rgba(16,30,54,.15);
 }
