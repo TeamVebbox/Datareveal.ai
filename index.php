@@ -89,7 +89,7 @@
 
     <!-- Features Section -->
     <section for="Feature-contents">
-        <div class="row p-5 border bg-light" id="features">
+        <!-- <div class="row p-5 border bg-light" id="features">
             <div id="feature-heading">
                 <h2 class="text-center" id="feature-heading-h2">Feature-section</h2>
             </div>
@@ -108,18 +108,25 @@
             <div class="col-lg-12 col-md-12 col-sm-12 p-5 border bg-primary" id="feature-five">
 
             </div>
-        </div>
+        </div> -->
+        <?php 
+        include "feature.php";
+        ?>
     </section>
 
     <!-- Get In Touch Section -->
     <section for="Get-in-touch">
-        <div class="row p-5 border bg-dark" id="get-in-touch">
+        <!-- <div class="row p-5 border bg-dark" id="get-in-touch">
             <h2 class="text-center text-light">Get-in-touch-section</h2>
-        </div>
+        </div> -->
+        <?php
+        include "get-in-touch.php";
+        ?>
     </section>
 
+    
     <!-- Footer Section -->
-    <section for="Footer">
+    <!-- <section for="Footer">
         <div class="row p-5 border bg-secondary" id="footer">
             <h2 class="text-center">Footer-section</h2>
             <div class="col-lg-4 col-md-4 col-sm-4 p-5 border bg-success" id="footer-part-one">
@@ -138,7 +145,11 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <?php
+    include "footer.php";
+    ?>
 </body>
 
 </html>
