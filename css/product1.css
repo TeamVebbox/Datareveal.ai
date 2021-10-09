@@ -93,9 +93,8 @@ h2{
 
 /* Features Section */
 #features{
-    box-shadow: 0 10px 20px rgba(16,30,54,.15);
+    border: 1px solid rgba(16,30,54,.15);
 }
-
 
 /* get into touch */
 #get-in-touch {
@@ -107,4 +106,35 @@ h2{
   }
   #get-in-touch h2 {
     font-weight: bold;
+  }
+
+ /* footer */
+ .foot
+ {
+      height: 200px;
+      width: auto;
+ }
+ .foot ul{
+        padding-left: 0%;
+ }
+ .foot li{
+      list-style-type: none;
+      line-height: 2em;
+
+ }
+ .foot a{
+    text-decoration: none;
+ }
+
+/* Parellax Section */
+#parallax {
+    background-image: url(../images/parellax-bg.jpg);
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #parallax-h3 {
+    color: #fff;
   }

@@ -94,7 +94,7 @@ h2{
 
 /* Features Section */
 #features{
-    box-shadow: 0 10px 20px rgba(16,30,54,.15);
+    border: 1px solid rgba(16,30,54,.15);
 }
 
 /* get into touch */
@@ -107,4 +107,22 @@ h2{
   }
   #get-in-touch h2 {
     font-weight: bold;
+  }
+
+  /* footer */
+  .foot
+  {
+       height: 200px;
+       width: auto;
+  }
+  .foot ul{
+         padding-left: 0%;
+  }
+  .foot li{
+       list-style-type: none;
+       line-height: 2em;
+
+  }
+  .foot a{
+     text-decoration: none;
   }
