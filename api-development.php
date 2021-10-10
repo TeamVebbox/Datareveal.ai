@@ -22,9 +22,8 @@
 
     <!-- Navigation Section -->
     <section for="Nav-bar-menu">
-        <div class="row p-4 bg-dark" id="nav-bar" style="padding: 0;margin: 0;">
-            <h2 class="text-center text-light">navbar</h2>
-        </div>
+        <?php
+        include "navbar.php";?>
     </section>
 
     <!-- Landing Contents -->
