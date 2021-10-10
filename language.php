@@ -364,33 +364,9 @@
 
     <!-- Footer Section -->
     <section for="Footer">
-      <div
-        class="row p-5 border bg-secondary"
-        id="footer"
-        style="margin: 0; padding: 0"
-      >
-        <h2 class="text-center">Footer-section</h2>
-        <div
-          class="col-lg-4 col-md-4 col-sm-4 p-5 border bg-success"
-          id="footer-part-one"
-        ></div>
-        <div
-          class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success"
-          id="footer-part-two"
-        ></div>
-        <div
-          class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success"
-          id="footer-part-three"
-        ></div>
-        <div
-          class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success"
-          id="footer-part-four"
-        ></div>
-        <div
-          class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success"
-          id="footer-part-five"
-        ></div>
-      </div>
+   <?php
+   include "footer.php";
+   ?>
     </section>
   </body>
   <script>
