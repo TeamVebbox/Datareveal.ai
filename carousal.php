@@ -13,7 +13,7 @@
     <div class="container mt-4"></div>
     <div class="container mt-5">
       <div class="row">
-        <div class="owl-carousel owl-theme">
+        <div class="owl-carousel owl-theme" style="z-index:0">
           <div class="item">
             <img src="images/1.jpg" height="600px" alt="" />
           </div>
