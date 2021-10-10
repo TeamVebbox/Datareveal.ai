@@ -58,7 +58,7 @@ body{
 
 /* Features Section */
 #features{
-    box-shadow: 0 10px 20px rgba(16,30,54,.15);
+    border: 1px solid rgba(16,30,54,.15);
 }
 
 /* Get in tocuh */
@@ -71,4 +71,14 @@ body{
   }
   #get-in-touch h2 {
     font-weight: bold;
+  }
+
+  /* Mobile Device Media Queries */
+  @media (max-width:575.98px){
+      #landing-image{
+          margin:0;
+      }
+      #content-subcontent{
+          padding-left: 0%;
+      }
   }
