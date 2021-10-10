@@ -1,0 +1,62 @@
+/* General css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+/* ===Vision Page=== */
+
+/* Landing Contents */
+#landing{
+    background-image: url(../images/vision-bg.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+#landing-contents{
+    text-align: left;
+}
+#landing-contents-h5{
+    color: #fff;
+    font-weight: lighter;
+}
+#landing-contents-h3{
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+/* Vision Contents */
+#vision-content-a{
+    text-decoration: none;
+}
+#vision-content-h2{
+    font-weight: bold;
+}
+#vision-content-p{
+    font-weight: bold;
+}
+
+/* Parellax Section */
+#parallax {
+    background-image: url(../images/parellax-bg.jpg);
+    min-height: 100px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax-h3{
+   color: #fff;
+}
+
+/* Content Section */
+#content-subcontent-p{
+    text-align: justify;
+}
+
+/* Features Section */
+#features{
+    box-shadow: 0 10px 20px rgba(16,30,54,.15);
+}
