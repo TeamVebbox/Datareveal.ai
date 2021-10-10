@@ -92,26 +92,6 @@
 
     <!-- Features Section -->
     <section for="Feature-contents">
-        <!-- <div class="row p-5 border bg-light" id="features">
-            <div id="feature-heading">
-                <h2 class="text-center" id="feature-heading-h2">Feature-section</h2>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 p-5 border bg-primary" id="feature-one">
-
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 p-5 border bg-primary" id="feature-two">
-
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 p-5 border bg-primary" id="feature-three">
-
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 p-5 border bg-primary" id="feature-four">
-
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 p-5 border bg-primary" id="feature-five">
-
-            </div>
-        </div> -->
         <?php 
         include "feature.php";
         ?>
@@ -119,9 +99,6 @@
 
     <!-- Get In Touch Section -->
     <section for="Get-in-touch">
-        <!-- <div class="row p-5 border bg-dark" id="get-in-touch">
-            <h2 class="text-center text-light">Get-in-touch-section</h2>
-        </div> -->
         <?php
         include "get-in-touch.php";
         ?>
@@ -129,30 +106,11 @@
 
     
     <!-- Footer Section -->
-    <!-- <section for="Footer">
-        <div class="row p-5 border bg-secondary" id="footer">
-            <h2 class="text-center">Footer-section</h2>
-            <div class="col-lg-4 col-md-4 col-sm-4 p-5 border bg-success" id="footer-part-one">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-two">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-three">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-four">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-five">
-
-            </div>
-        </div>
-    </section> -->
-
-    <?php
-    include "footer.php";
-    ?>
+    <section for="Footer">
+        <?php
+            include "footer.php";
+        ?>
+    </section>
 </body>
 
 </html>

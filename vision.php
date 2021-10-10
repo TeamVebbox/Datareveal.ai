@@ -163,45 +163,9 @@
 
     <!-- Features Section -->
     <section for="Subpage-feature-contents">
-        <div class="container mb-5">
-            <div class="row mt-3" id="subpage-features" style="margin: 0;padding: 0;">
-                <div class="mb-3" id="subpage-feature-heading">
-                    <h1 class="text-center" id="subpage-feature-heading-h1">Features</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-1.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-2.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-3.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-                <div class="ol-lg-6 col-md-6 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-4.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-                <div class="ol-lg-12 col-md-12 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-5.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-            </div>
-        </div>
+        <?php 
+            include "feature.php";
+        ?>
     </section>
 
     <!-- Subpage Carousel Section -->
@@ -213,37 +177,16 @@
 
     <!-- Get In Touch Section -->
     <section for="Get-in-touch">
-        <div class="row p-5" id="get-in-touch" style="margin: 0;padding: 0;">
-            <h2 class="text-center text-light">
-                Get started with Data Reveal Today
-            </h2>
-
-            <div class="text-center pt-4">
-                <button type="button" class="btn btn-warning">Get In Touch</button>
-            </div>
-        </div>
+        <?php
+            include "get-in-touch.php";
+        ?>
     </section>
 
     <!-- Footer Section -->
     <section for="Footer">
-        <div class="row p-5 border bg-secondary" id="footer" style="margin: 0;padding: 0;">
-            <h2 class="text-center">Footer-section</h2>
-            <div class="col-lg-4 col-md-4 col-sm-4 p-5 border bg-success" id="footer-part-one">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-two">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-three">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-four">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-five">
-
-            </div>
-        </div>
+        <?php
+            include "footer.php";
+        ?>
     </section>
 
 </body>

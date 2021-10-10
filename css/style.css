@@ -82,3 +82,40 @@ body{
           padding-left: 0%;
       }
   }
+
+  /* ===Learning Page=== */
+
+  /* Vision Contents */
+#learn-content-a{
+    text-decoration: none;
+}
+#learn-content-h2{
+    font-weight: bold;
+}
+#learn-content-p{
+    font-weight: bold;
+}
+#learn-content-span{
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+/* Landing Contents */
+#learn-landing{
+    background-image: url(../images/learn-bg.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+#learn-landing-contents{
+    text-align: left;
+}
+#learn-landing-contents-h5{
+    color: #fff;
+    font-weight: lighter;
+}
+#learn-landing-contents-h3{
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: justify;
+}
