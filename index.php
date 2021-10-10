@@ -15,9 +15,12 @@
 
     <!-- Navigation Section -->
     <section for="Nav-bar-menu">
-        <div class="row p-4 border bg-dark" id="nav-bar">
+        <!-- <div class="row p-4 border bg-dark" id="nav-bar">
             <h2 class="text-center text-light">Navigation-bar</h2>
-        </div>
+        </div> -->
+        <?php
+         include "navbar.php";
+        ?>
     </section>
 
     <!-- Video Section -->
@@ -29,9 +32,9 @@
                 Your browser does not support HTML5 video.
               </video>
               
-              <div class="content">
+              <div class="content" style="margin-top: -18%;">
                   <div class="ps-5">
-                <img src="./images/foundationai-logo-2.svg" alt="" srcset="">
+                <h3>Data reaveal </h3>
                 <h3>Make Automation Work.</h3>
                 <h5>Your people have better things to do.</h5>
                 <button id="myBtn">Pause</button>
@@ -43,7 +46,7 @@
 
     <!-- Services Section -->
     <section for="Services">
-        <div class="row p-5 border bg-light" id="service">
+        <div class="row mt-4 p-5 border bg-light" id="service">
             <div id="service-heading">
                 <h2 class="text-center" id="service-heading-h2">Service-section</h2>
             </div>
