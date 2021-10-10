@@ -31,14 +31,14 @@
     <section for="Learn-landing-contents">
         <div class="row" id="learn-landing" style="padding: 0;margin: 0;">
             <div class="col-lg-4 col-md-4 col-sm-12 ms-lg-5 my-auto" id="learn-landing-image">
-                <img src="images/vision-landing-mg.png" class="img-fluid mt-5 ms-4 ms-sm-0" alt="Datareveal-Vision"
-                    height="100%" width=90%">
+                <img src="images/learning-landing" class="img-fluid mt-lg-0 ms-lg-4 ms-sm-0" alt="Datareveal-Vision"
+                    height="100%" width=100%">
             </div>
             <div class="col-1"></div>
             <div class="col-lg-5 col-md-5 col-sm-12 my-auto p-4" id="learn-landing-contents">
-                <h5 id="learn-landing-contents-h5">Datareveal Extract - Vision</h5>
-                <h3 id="learn-landing-contents-h3">Lorem ipsum dolor sit amet. Et fuga totam in dolor reprehenderit quo
-                    repudiandae nobis ut voluptatum modi. Qui velit sapiente et minima maiores aut necessitatibus.</h3>
+                <h5 id="learn-landing-contents-h5">Datareveal Extract - Learning</h5>
+                <h3 id="learn-landing-contents-h3">Go beyond data extraction to automate insights and decisions, not
+                    just tasks.</h3>
             </div>
         </div>
     </section>
@@ -49,10 +49,9 @@
             <div class="row p-3 mx-auto mt-2" id="learn-content" style="margin: 0;padding: 0;">
                 <a href="#" id="learn-content-a">Datareveal</a>
                 <h2 id="learn-content-h2">Learning</h2>
-                <p class="p-3" id="learn-content-p">Sed voluptatum harum est aliquam nesciunt ut maiores dolores? Ut
-                    quia
-                    eligendi ut
-                    tempora quas aut perferendis voluptatibus. Est quam quas ut optio quia ea inventore ipsum</p>
+                <p class="p-3" id="learn-content-p">Empower Vision and Language solutions with Extract Learning models
+                    to automate processes that ordinarily require human judgment, extract actionable insights from
+                    processed data, and make better data-driven decisions.</p>
                 <div class="col-lg-6 col-md-6 col-sm-12 p-2" id="learn-content-one">
                     <img src="images/learning-1.svg" alt="learning-Datareavel"><span class="ps-2"
                         id="learn-content-span"> Cognitive
@@ -82,8 +81,9 @@
     <!-- Parellex Section -->
     <section for="Parellex">
         <div class="row p-4" id="parallax" style="margin: 0;padding: 0;">
-            <h3 id="parallax-h3"> Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam.</h3>
+            <h3 id="parallax-h3" class="text-center p-5">Leverage data to extract actionable insights and make better
+                data-driven decisions.
+            </h3>
         </div>
     </section>
 
@@ -92,58 +92,69 @@
         <div class="container">
             <div class="row mt-5 mb-5" id="contents-one" style="margin: 0;padding: 0;">
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/learn-content-1.jpg" alt="vision-Datareavel" height="100%" width="100%">
+                    <img src="images/learn-content-1.png" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">Intelligently Process Documents</h2>
+                    <p id="content-subcontent-p">Unlike traditional OCR applications that rely on templates and zonal
+                        extraction, Datareavel Extract leverages AI to read documents like a human, understanding the
+                        context, meaning and intent of language.
+
+                        Datareavel AI uses knowledge mapping to configure Extract to perform complicated processes,
+                        integrating both deterministic and probabilistic models to make judgement calls, and using
+                        confidence thresholds to determine when human involvement is necessary. Extract continuously
+                        learns from human feedback, getting faster and more accurate each day.</p>
                 </div>
             </div>
             <div class="row mt-5 mb-5" id="contents-two">
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-none d-sm-block" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">Extract Insights from Dark Data</h2>
+                    <p id="content-subcontent-p">Whether its automating manual processes, uncovering actionable
+                        insights, or predicting future events, digital transformation relies on structured data. But 90%
+                        of enterprise data is locked away in documents, images, and videos and the rate at which this
+                        unstructured data is being created is increasing exponentially.
+
+                        Not only can Datareavel AI create structure out of this unstructured data, its unsupervised
+                        clustering, supervised classification, and other Learning models can detect even subtle patterns
+                        and coax out meaningful insights. Go beyond simply processing data and use it to predict future
+                        events and prescribe the best course of action.</p>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1 ms-lg-5" id="content-image">
-                    <img src="images/learn-content-2.jpg" class="ms-lg-5" alt="vision-Datareavel" height="100%"
+                    <img src="images/learn-content-2.png" class="ms-lg-5" alt="vision-Datareavel" height="100%"
                         width="100%">
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-block d-sm-none" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">Extract Insights from Dark Data</h2>
+                    <p id="content-subcontent-p">Whether its automating manual processes, uncovering actionable
+                        insights, or predicting future events, digital transformation relies on structured data. But 90%
+                        of enterprise data is locked away in documents, images, and videos and the rate at which this
+                        unstructured data is being created is increasing exponentially.
+
+                        Not only can Datareavel AI create structure out of this unstructured data, its unsupervised
+                        clustering, supervised classification, and other Learning models can detect even subtle patterns
+                        and coax out meaningful insights. Go beyond simply processing data and use it to predict future
+                        events and prescribe the best course of action.</p>
                 </div>
             </div>
             <div class="row mt-5 mb-5" id="contents-one">
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/learn-content-3.jpg" alt="vision-Datareavel" height="100%" width="100%">
+                    <img src="images/learn-content-3.png" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">Forecast the future</h2>
+                    <p id="content-subcontent-p">Extract leverages transfer learning to configure its suite of deep
+                        learning and time-series forecasting models specifically for each use case. The Datareavel AI
+                        team has built and deployed in production hundreds of predictive models across industries,
+                        ranging from helping energy utilities forecast when machine component parts will fail to helping
+                        a large multi-national appliance maker model future customer demand.
+
+                        The Datareavel AI team has particular expertise in healthcare predictive models, having deployed
+                        over 100 different revenue, operational, and clinical predictive models for healthcare providers
+                        around the globe.</p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Parellex Section -->
-    <section for="Parellex">
-        <div class="row p-4" id="parallax" style="margin: 0;padding: 0;">
-            <h3 id="parallax-h3"> Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam.</h3>
         </div>
     </section>
 

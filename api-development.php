@@ -31,60 +31,70 @@
     <section for="Landing-contents">
         <div class="row" id="landing" style="padding: 0;margin: 0;">
             <div class="col-lg-4 col-md-4 col-sm-12 ms-lg-5 my-auto" id="landing-image">
-                <img src="images/vision-landing-mg.png" class="img-fluid mt-5 ms-4 ms-sm-0" alt="Datareveal-Vision"
-                    height="100%" width=90%">
+                <img src="images/api-landing.png" class="img-fluid mt-lg-0 ms-lg-4 ms-sm-0" alt="Datareveal-Vision"
+                    height="100%" width=100%">
             </div>
             <div class="col-1"></div>
             <div class="col-lg-5 col-md-5 col-sm-12 my-auto p-4" id="landing-contents">
-                <h5 id="landing-contents-h5">Datareveal Extract - Vision</h5>
-                <h3 id="landing-contents-h3">Lorem ipsum dolor sit amet. Et fuga totam in dolor reprehenderit quo
-                    repudiandae nobis ut voluptatum modi. Qui velit sapiente et minima maiores aut necessitatibus.</h3>
+                <h5 id="landing-contents-h5">Datareveal Extract - API Development</h5>
+                <h3 id="landing-contents-h3">Datareavel API is a basic building block of procedures and
+                    functions that enable
+                    the mobile app development that access data and features of other applications, services. When
+                    writing a new program, a developer does not have to begin from scratch to build a core application.
+                </h3>
             </div>
         </div>
     </section>
 
-    <!-- Subpage Contents -->
+    <!-- API-development Contents -->
     <section for="Vision-services">
         <div class="container">
             <div class="row p-3 mx-auto mt-2" id="vision-content" style="margin: 0;padding: 0;">
                 <a href="#" id="vision-content-a">Datareveal</a>
-                <h2 id="vision-content-h2">Extract Vision</h2>
-                <p class="p-3" id="vision-content-p">Sed voluptatum harum est aliquam nesciunt ut maiores dolores? Ut
-                    quia
-                    eligendi ut
-                    tempora quas aut perferendis voluptatibus. Est quam quas ut optio quia ea inventore ipsum</p>
+                <h2 id="vision-content-h2">API Development</h2>
+                <p class="p-3" id="vision-content-p">Datareavel API is a basic building block of procedures and
+                    functions that enable
+                    the mobile app development that access data and features of other applications, services. When
+                    writing a new program, a developer does not have to begin from scratch to build a core application.
+                </p>
                 <div class="col-lg-4 col-md-4 col-sm-12" id="vision-content-one">
                     <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/vision-service-1.jpg" class="card-img-top" alt="vision">
+                        <img src="images/service-1.png" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <p class="card-text" id="api-card-p">Our developers always utilize best practices when
+                                integrating and
+                                implementing APIs. we harness the power of popular Microsoft platforms, including Azure,
+                                Jitterbit, Dell Boomi, Anypoint, Funnel, and more, adding superior web functionality and
+                                integrate disparate business systems with existing apps.</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-two">
                     <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/vision-service-2.jpg" class="card-img-top" alt="vision">
+                        <img src="images/service-2.png" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <p class="card-text" id="api-card-p">We implement internal and external API development
+                                solutions that
+                                preemptively solve issues regarding communications, content, data sharing, business
+                                logic, and microservices. The APIs that we configure are compatible with all types of
+                                mobile devices, databases, search engines, and intranet systems.</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-three">
                     <div class="card p-3" id="service-card">
-                        <img src="images/vision-service-3.jpg" class="card-img-top" alt="vision">
+                        <img src="images/service-3.png" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <p class="card-text" id="api-card-p">Our custom API integration solutions encompass
+                                everything from
+                                development and integration to documentation and deployment. We also provide continuous
+                                API maintenance services to ensure that everything is running smoothly and securely,
+                                developing API architectures custom key encryptions for security.</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
@@ -96,8 +106,12 @@
     <!-- Parellex Section -->
     <section for="Parellex">
         <div class="row p-4" id="parallax" style="margin: 0;padding: 0;">
-            <h3 id="parallax-h3"> Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam.</h3>
+            <h3 id="parallax-h3" class="text-center my-auto"> The importance of Datareavel APIs from a technical
+                standpoint,
+                they allow the
+                capabilities of one
+                computer program to be used by another. They are a means by which two different programs are able to
+                communicate.</h3>
         </div>
     </section>
 
@@ -110,31 +124,32 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">API DEVELOPMENT PLATFORMS</h2>
+                    <p id="content-subcontent-p">Our developers build specialized APIs for enterprise applications. Our
+                        APIs are designed to facilitate quick & easy access to app data, business logic, functionality,
+                        web services, and more for both new and legacy applications. Our mobile, desktop, and cloud
+                        application API development services incorporate developing service oriented architectures
+                        (SOA), browsers, web sockets, operating systems, firmware/hardware, databases, and more.</p>
                 </div>
             </div>
             <div class="row mt-5 mb-5" id="contents-two">
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-none d-sm-block" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">API AS A SERVICE</h2>
+                    <p id="content-subcontent-p">We develop all types of APIs, including API as a Service (APIaas) and
+                        web APIs, providing REST API development, along with Java, JSON, AJAX, SOAP, HTTP/HTTPS, XML,
+                        XHTML, and EDI development services. To execute AI-based microservices, we also use HTTP/SOAP
+                        interfaces and Docker containers with added custom business logic.</p>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1 ms-lg-5" id="content-image">
                     <img src="images/vision-content-2.jpg" class="ms-lg-5" alt="vision-Datareavel" height="100%"
                         width="100%">
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-block d-sm-none" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">API AS A SERVICE</h2>
+                    <p id="content-subcontent-p">We develop all types of APIs, including API as a Service (APIaas) and
+                        web APIs, providing REST API development, along with Java, JSON, AJAX, SOAP, HTTP/HTTPS, XML,
+                        XHTML, and EDI development services. To execute AI-based microservices, we also use HTTP/SOAP
+                        interfaces and Docker containers with added custom business logic.</p>
                 </div>
             </div>
             <div class="row mt-5 mb-5" id="contents-one">
@@ -143,11 +158,11 @@
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">API TESTING AUTOMATION</h2>
+                    <p id="content-subcontent-p">We perform automated API testing, and design & configure API
+                        integration testing platforms to effectively automate UI, security, functionality, validation,
+                        load, runtime, and other testing. We also use popular API testing platforms, like Postman to
+                        perform API tests.</p>
                 </div>
             </div>
         </div>
@@ -156,8 +171,9 @@
     <!-- Parellex Section -->
     <section for="Parellex">
         <div class="row p-4" id="parallax" style="margin: 0;padding: 0;">
-            <h3 id="parallax-h3"> Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam.</h3>
+            <h3 id="parallax-h3" class="text-center my-auto">Automation: with APIs, computers rather than people can
+                manage the work. Through APIs,
+                agencies can update work flows to make them quicker and more productive. </h3>
         </div>
     </section>
 
