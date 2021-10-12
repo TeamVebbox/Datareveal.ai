@@ -11,9 +11,7 @@
     <!-- Boostrap css -->
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        
-    </style>
+  
 </head>
 
 <body>
