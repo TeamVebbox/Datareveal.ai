@@ -109,20 +109,4 @@ h2{
     font-weight: bold;
   }
 
-  /* footer */
-  .foot
-  {
-       height: 200px;
-       width: auto;
-  }
-  .foot ul{
-         padding-left: 0%;
-  }
-  .foot li{
-       list-style-type: none;
-       line-height: 2em;
 
-  }
-  .foot a{
-     text-decoration: none;
-  }
