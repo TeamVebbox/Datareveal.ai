@@ -25,8 +25,8 @@
 	margin: 0;
 	padding: 0;
     font-family: sans-serif;
-}
-.responsive-bar{
+    }
+    .responsive-bar{
     display: none;
 }
 nav{
@@ -41,7 +41,7 @@ nav{
     transition: .5s;
 }
 nav.black{
-    background: rgba(0,0,0,0.8);
+    background: #fff;
     height: 80px;
     padding: 10px 50px;
 }
@@ -68,19 +68,20 @@ nav > ul > li{
     
 }
 nav > ul > li > a:hover{
-    background: #f00;
+    background: transparent;
     color: #fff;
 }
 nav > ul > li > a{
-    color: #262626;
+    color: #fff;
     text-decoration: none;
+    font-weight:bold;
     text-transform: uppercase; /*for capitalisation of letters */
     line-height: 80px;
     padding: 5px 20px;
     transition: .5s;   
 }
 nav.black > ul > li > a{
-    color: #fff;
+    color: #000;
     line-height: 60px;
 }
 
@@ -106,7 +107,7 @@ section.sec2{
         display: block;
         width: 100%;
         height: 60px;
-        background: #262626;
+        background: #fff;
         position: fixed;
         top: 0;
         left: 0;
@@ -132,7 +133,7 @@ section.sec2{
     }
     nav,
     nav.black{
-    background: #262626;
+    background: #fff;
     height: 60px;
     padding: 0;
     }
@@ -144,7 +145,7 @@ section.sec2{
         width: 100%;
         top: 60px;
         left: 0;
-        background: #262626;
+        background: #fff;
         float: none;
         display: none;
     }
@@ -191,11 +192,10 @@ section.sec2{
             <img src="http://www.mhf.org.au/media/zoo/images/yourlogohere_2cb8c31ab01096e7842d781ac311a776.png" alt="logo"/>
             </div>
          <ul>
+            <li><a href="#">Home</a></li>
+             <li><a href="#">Solutions</a></li>
+             <li><a href="#">About Us</a></li>
              <li><a href="#">Contact Us</a></li>
-             <li><a href="#">Services</a></li>
-             <li><a href="#">Portfolio</a></li>
-             <li><a href="#">About us</a></li>
-             <li><a href="#">Home</a></li>
             </ul>
         </nav>
         
