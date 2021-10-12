@@ -1,0 +1,108 @@
+/* about-landing-contents img */
+#about-landing-contents
+{
+    background-image: url('../images/vision-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    min-height: 600px;
+
+}
+/* about-landing-content {text(h2),p} */
+#about-landing-contents h2{
+    color:#fff;
+}
+#about-landing-contents h3
+{
+    font-weight: lighter;
+    font-size:x-large;
+    letter-spacing:1px;
+    color:#fff;
+}
+#about-landing-contents p
+{
+    /* padding-right:50%; */
+    text-align: justify;
+    font-size:large;
+    letter-spacing:1px;
+    line-height:20px;
+    color:#fff;
+}
+#team
+{
+    background-image: linear-gradient(to right, #0f2027, #203a43,#2c5364);
+    color:white;
+}
+#landing-two
+{
+    background-image: url('../images/insurance-extract-hero-image.jpg');
+    background-size:cover;
+    min-height: 650px;
+}
+#landing-two h2
+{
+    /* padding:5%; */
+    margin-top: -3.5%;
+    margin-left:10%;
+    color: white;
+    font-size: larger;
+}
+#landing-two h4
+{
+    color:white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size:xx-large;
+}
+#landing-two h3
+{
+    color: white;
+    font-weight: lighter;
+    font-size: x-large;
+    /* padding-right: 30%; */
+    max-width: 90%;
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width:481px) and (max-width: 767px) {
+    #landing-two img
+    {
+        height:7%;
+        width: 10%;
+    }
+    #landing-two h2
+    {
+        margin-top: -10%;
+        margin-left: 25%;
+        position: static;
+    } 
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    
+    #landing-two img
+{
+    height:7%;
+    width: 10%;
+}
+#landing-two h2
+{
+    margin-top: -10%;
+    margin-left: 25%;
+}
+}
+
+/* Parellax Section */
+#parallax {
+    background-image: url(../images/parellax-bg.jpg);
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax-h3{
+   color: #fff;
+}
