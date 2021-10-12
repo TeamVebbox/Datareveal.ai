@@ -27,7 +27,7 @@
 
         #dev{
             background-color:#1d252f; 
-            margin-top: 8%;
+            margin-top: 10%;
         }
         .dev a
         {
@@ -42,7 +42,7 @@
     </style>
 </head>
 <body>
-  <div class="container-fluid">  
+  <div class="container">  
    <div class="row">
     <div class="container">
         <div class="row">
@@ -101,11 +101,15 @@
 
 <div class="container-fluid">
     <div class="row" id="dev">
-            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                <p style="color:#fff;" class="p-3 dev ms-4">Developed by <a href="http://vebbox.com">Vebbox Software Solutions</a></p>
+        <div class="col-xxl-6 col-xl-8 col-lg-10 col-md-6 col-sm-6">
+            <p style="color:#fff; font-size: 20px;" class="p-3 dev ms-4">Developed by <a href="http://vebbox.com">Vebbox Software Solutions</a></p>
+        </div>
+            <div class="col-xxl-6 col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                <p style="color:#fff; font-size: 20px;" class="p-3 dev ms-4">All right Reserved &copy; Foundation AI</p>
             </div>
     </div>
 </div>
+
     <link rel="stylesheet" href="./js/bootstrap.min.js">
 </body>
 </html>
