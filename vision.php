@@ -22,23 +22,23 @@
 
     <!-- Navigation Section -->
     <section for="Nav-bar-menu">
-        <div class="row p-4 bg-dark" id="nav-bar" style="padding: 0;margin: 0;">
-            <h2 class="text-center text-light">navbar</h2>
-        </div>
+        <?php
+            include "navbar.php";
+        ?>
     </section>
 
     <!-- Landing Contents -->
     <section for="Landing-contents">
         <div class="row" id="landing" style="padding: 0;margin: 0;">
             <div class="col-lg-4 col-md-4 col-sm-12 ms-lg-5 my-auto" id="landing-image">
-                <img src="images/vision-landing-mg.png" class="img-fluid mt-5 ms-4 ms-sm-0" alt="Datareveal-Vision"
-                    height="100%" width=90%">
+                <img src="images/vision-landing-mg.png" class="img-fluid mt-lg-0 ms-lg-4 ms-sm-0"
+                    alt="Datareveal-Vision" height="100%" width=100%">
             </div>
             <div class="col-1"></div>
             <div class="col-lg-5 col-md-5 col-sm-12 my-auto p-4" id="landing-contents">
                 <h5 id="landing-contents-h5">Datareveal Extract - Vision</h5>
-                <h3 id="landing-contents-h3">Lorem ipsum dolor sit amet. Et fuga totam in dolor reprehenderit quo
-                    repudiandae nobis ut voluptatum modi. Qui velit sapiente et minima maiores aut necessitatibus.</h3>
+                <h3 id="landing-contents-h3">Powerful software to read documents, interpret images, and analyze videos
+                </h3>
             </div>
         </div>
     </section>
@@ -49,42 +49,37 @@
             <div class="row p-3 mx-auto mt-2" id="vision-content" style="margin: 0;padding: 0;">
                 <a href="#" id="vision-content-a">Datareveal</a>
                 <h2 id="vision-content-h2">Extract Vision</h2>
-                <p class="p-3" id="vision-content-p">Sed voluptatum harum est aliquam nesciunt ut maiores dolores? Ut
-                    quia
-                    eligendi ut
-                    tempora quas aut perferendis voluptatibus. Est quam quas ut optio quia ea inventore ipsum</p>
+                <p class="p-3" id="vision-content-p">Configurable machine learning, neural network, and deep learning
+                    models to extract
+                    structured data from images, videos and documents. Assemble with Language and Learning models to
+                    deploy
+                    customized end-to-end solutions.</p>
                 <div class="col-lg-4 col-md-4 col-sm-12" id="vision-content-one">
                     <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/vision-service-1.jpg" class="card-img-top" alt="vision">
+                        <img src="images/service-1.png" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <p class="card-text">Image Classification, Analysis and Anomaly Detection</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-two">
                     <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/vision-service-2.jpg" class="card-img-top" alt="vision">
+                        <img src="images/service-2.png" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <p class="card-text">Video Analytics, Search, and Object Tracking</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-three">
                     <div class="card p-3" id="service-card">
-                        <img src="images/vision-service-3.jpg" class="card-img-top" alt="vision">
+                        <img src="images/service-3.png" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of
-                                the card's content.</p>
+                            <p class="card-text">Intelligent OCR, Document Classification, and Text Extraction</p>
                             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                         </div>
                     </div>
@@ -96,8 +91,9 @@
     <!-- Parellex Section -->
     <section for="Parellex">
         <div class="row p-4" id="parallax" style="margin: 0;padding: 0;">
-            <h3 id="parallax-h3"> Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam.</h3>
+            <h3 id="parallax-h3" class="text-center p-5">Enable software with human like vision to analyze images,
+                videos, and documents across
+                real world use cases.</h3>
         </div>
     </section>
 
@@ -106,48 +102,62 @@
         <div class="container">
             <div class="row mt-5 mb-5" id="contents-one" style="margin: 0;padding: 0;">
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/vision-content-1.jpg" alt="vision-Datareavel" height="100%" width="100%">
+                    <img src="images/vision-content-1.png" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
-                <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto p-1 p-lg-0" id="content-subcontent">
+                    <h2 id="content-subcontent-h2">Extract text from documents and media</h2>
+                    <p id="content-subcontent-p">Extract can identify and capture business critical content from
+                        hundreds of documents out of the box, including legal pleadings, medical records, common
+                        insurance documents like ACORD forms, and IRS documents like 1040s and W-2s.
+
+                        The Extract AI engine can be easily configured to identify and extract text from virtually any
+                        document, including unstructured documents with inconsistent layouts.</p>
                 </div>
             </div>
             <div class="row mt-5 mb-5" id="contents-two">
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-none d-sm-block" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                    <h2 id="content-subcontent-h2">Capture people, things, and events across video assets</h2>
+                    <p id="content-subcontent-p">Extract Vision uses transfer learning to quickly identify new types of
+                        objects with limited training data. Once configured, Extract can count and track multiple
+                        disparate objects moving in multiple directions through a video frame--like products on a
+                        factory floor, people walking through a shopping center, or cars on the road.
+
+                        Datareavel AI has deployed these models to help municipalities increase urban mobility and
+                        traffic safety by tracking the number, types, and direction of vehicles moving through busy
+                        intersections.</p>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1 ms-lg-5" id="content-image">
-                    <img src="images/vision-content-2.jpg" class="ms-lg-5" alt="vision-Datareavel" height="100%"
+                    <img src="images/vision-content-2.png" class="ms-lg-5" alt="vision-Datareavel" height="100%"
                         width="100%">
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-block d-sm-none" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-block d-sm-none p-4" id="content-subcontent">
+                    <h2 id="content-subcontent-h2">Capture people, things, and events across video assets</h2>
+                    <p id="content-subcontent-p">Extract Vision uses transfer learning to quickly identify new types of
+                        objects with limited training data. Once configured, Extract can count and track multiple
+                        disparate objects moving in multiple directions through a video frame--like products on a
+                        factory floor, people walking through a shopping center, or cars on the road.
+
+                        Datareavel AI has deployed these models to help municipalities increase urban mobility and
+                        traffic safety by tracking the number, types, and direction of vehicles moving through busy
+                        intersections.</p>
                 </div>
             </div>
             <div class="row mt-5 mb-5" id="contents-one">
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/vision-content-3.jpg" alt="vision-Datareavel" height="100%" width="100%">
+                    <img src="images/vision-content-3.png" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
-                <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto" id="content-subcontent">
-                    <h2 id="content-subcontent-h2">Lorem ipsm!</h2>
-                    <p id="content-subcontent-p">Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam. Et
-                        sapiente quisquam in sint culpa nam inventore quam aut ducimus doloremque eos laborum unde et
-                        quia inventore et autem itaque.</p>
+                <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto p-4 p-lg-0" id="content-subcontent">
+                    <h2 id="content-subcontent-h2">Identify people in real-time, with limited training data</h2>
+                    <p id="content-subcontent-p">Datareavel Extract facial recognition leverages state-of-the-art models
+                        to recognize people with limited training data. Extract can recognize faces in digital and
+                        analog footage, regardless of angle of capture, and even in suboptimal conditions like when they
+                        are wearing face masks.
+
+                        Extract facial recognition can process archived images and video, or deployed in real time
+                        across a wide range of use-cases like forensic analysis, e-discovery, medication adherence
+                        monitoring, physical premises monitoring, and bio-metric access control.</p>
                 </div>
             </div>
         </div>
@@ -156,8 +166,19 @@
     <!-- Parellex Section -->
     <section for="Parellex">
         <div class="row p-4" id="parallax" style="margin: 0;padding: 0;">
-            <h3 id="parallax-h3"> Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                galisum omnis aut eius praesentium rem architecto sint non dicta mollitia eum nisi veniam.</h3>
+            <div class="col-lg-5 col-md-5 col-sm-12 my-auto mx-auto p-4" id="landing-contents">
+                <h3 id="landing-contents-h3">Datareavel Extract - Vision
+                </h3>
+                <h5 id="landing-contents-h5">Datareavel Extract Video Search combines Datareavel AI’s video analytics,
+                    facial recognition, and object classification and tracking models to enable users to quickly scan
+                    through large troves of video and image files and accurately identify the exact instances when
+                    specific people, objects and events appear on screen.</h5>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-lg-4 col-md-4 col-sm-12 my-auto" id="landing-image">
+                <img src="images/vision-landing-mg.png" class="img-fluid mt-lg-0 ms-lg-0 ms-sm-0"
+                    alt="Datareveal-Vision" height="100%" width=100%">
+            </div>
         </div>
     </section>
 
@@ -170,9 +191,9 @@
 
     <!-- Subpage Carousel Section -->
     <section for="Subpage-carousel-content">
-        <div class="row p-5 border bg-warning" id="subpage-carousel" style="margin: 0;padding: 0;">
-            <h2 class="text-center">Carousel-section</h2>
-        </div>
+        <?php
+            include "carousal.php";
+        ?>
     </section>
 
     <!-- Get In Touch Section -->

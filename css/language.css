@@ -1,7 +1,7 @@
 #landing {
   background-image: url(../images/5431981.jpg);
   background-size: cover;
-  height: 600px;
+  height: 650px;
   width: auto;
 }
 #landing-contents {
@@ -17,7 +17,7 @@
 }
 #lang_title_content {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
 }
 #lang_land_c {
@@ -34,18 +34,19 @@
 }
 #content2 {
   font-weight: bold;
-  margin-top: -10px;
+  /* margin-top: -10px; */
 }
 #content3 {
-  margin-left: 20px;
-  font-size: 20px;
+  /* margin-left: 20px; */
+  font-size: 18px;
   font-weight: 600;
-  padding-right: 50px;
+  text-align: justify;
+  /* padding-right: 50px; */
   /* padding-right: 30px; */
 }
 #content4 {
-  margin-top: 60px;
-  margin-bottom: 10px;
+  /* margin-top: 60px; */
+  /* margin-bottom: 10px; */
 }
 #content4 img {
   height: 35px;
@@ -53,6 +54,9 @@
 }
 #content-subcontent h2 {
   font-weight: bold;
+}
+#content-subcontent p{
+  text-align: justify;
 }
 #content-image img {
   height: 500px;
@@ -69,15 +73,10 @@
   font-weight: bold;
 }
 
-/* Features Section */
-#features {
-  box-shadow: 0 10px 20px rgba(16, 30, 54, 0.15);
-}
-
 /* Parellax Section */
 #parallax {
   background-image: url(../images/parellax-bg.jpg);
-  min-height: 100px;
+  min-height: 250px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

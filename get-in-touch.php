@@ -28,7 +28,7 @@
             </h2>
 
             <div class="text-center pt-4">
-                <button type="button" class="btn btn-warning">Get In Touch</button>
+                <button type="button" class="btn btn-outline-warning">Get In Touch</button>
             </div>
         </div>
     </section>

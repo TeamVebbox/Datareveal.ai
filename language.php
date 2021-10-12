@@ -1,146 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Language | Datareveal</title>
-    <!-- owl carousel -->
 
-    <!-- Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Boostrap css -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/language.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Language | Datareveal</title>
+  <!-- owl carousel -->
 
-  <body>
-    <!-- Navigation Section -->
-    <section for="Nav-bar-menu">
-      <?php
-      include "navbar.php"
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet" />
+  <!-- Boostrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/language.css" />
+</head>
+
+<body>
+  <!-- Navigation Section -->
+  <section for="Nav-bar-menu">
+    <?php
+        include "navbar.php";
       ?>
-    </section>
+  </section>
 
-    <!-- Landing Contents -->
-    <section for="Landing-contents">
-      <div class="row" id="landing" style="margin: 0; padding: 0">
-        <div class="col-7 p-5 mt-5 my-auto" id="landing-contents">
-          <h5 class="text-left ms-5" id="lang_title">
-            <img src="images/001-chip.png" class="" alt="ai" /> Data
-            Reveal-Language
-          </h5>
-          <h1 class="text-left ms-5 mt-3" id="lang_title_content">
-            Comprehend text and natural language to automate data capture,
-            analysis, and entry.
-          </h1>
-        </div>
-        <div class="col-5 p-5 my-auto" id="landing-image">
-          <img
-            src="images/lang_land_c.png"
-            alt="lang_land_c"
-            id="lang_land_c"
-          />
-        </div>
+  <!-- Landing Contents -->
+  <section for="Landing-contents">
+    <div class="row" id="landing" style="margin: 0; padding: 0">
+      <div class="col-lg-7 col-sm-12 my-auto" id="landing-contents">
+        <h5 class="text-left ms-lg-5" id="lang_title">
+          <img src="images/001-chip.png" class="" alt="ai" /> Data
+          Reveal-Language
+        </h5>
+        <h3 class="text-left ms-lg-5 mt-lg-3" id="lang_title_content">
+          Comprehend text and natural language to automate data capture,
+          analysis, and entry.
+        </h3>
       </div>
-    </section>
+      <div class="col-lg-5 col-sm-12 my-auto" id="landing-image">
+        <img src="images/lang_land_c.png" alt="lang_land_c" id="lang_land_c" / height="100%" width="100%">
+      </div>
+    </div>
+  </section>
 
-    <!-- Subpage Contents -->
-    <section for="Subpage-services">
-      <div
-        class="row pt-5 ps-5 pe-5"
-        id="subpage-content"
-        style="margin: 0; padding: 0"
-      >
-        <div class="col-6 p-5" id="subpage-content-one">
+  <!-- Subpage Contents -->
+  <section for="Subpage-services">
+    <div class="container">
+      <div class="row pt-5" id="subpage-content" style="margin: 0; padding: 0">
+        <div class="col-lg-4 p-3" id="subpage-content-one">
           <p id="content1">DATAREVEAL AI</p>
-          <h1 id="content2">Extract Language</h1>
+          <h2 id="content2">Extract Language</h2>
           <div id="line" class="mt-3">
-            <p id="content3">
+            <p id="content3" class="ps-2">
               Automates document classification, content extraction, text
               analysis and data entry into downstream software, storage, and RPA
               systems.
             </p>
-            <p id="content3">
+            <p id="content3" class="ps-2">
               Models can be called individually, or assembled and orchestrated
               with Extract Vision and Learning models to configure customized
               solutions to your business challenges.
             </p>
           </div>
         </div>
-        <div class="col-3 p-3" id="subpage-content-two">
-          <p id="content4">
-            <img
-              src="images/lm_nlp_ico.svg"
-              alt="lm_nlp_ico"
-            />&nbsp;&nbsp;&nbsp; Natural Language Processing
+        <div class="col-lg-4 p-5" id="subpage-content-two">
+          <p id="content4" class="mt-0">
+            <img src="images/lm_nlp_ico.svg" alt="lm_nlp_ico" />&nbsp;&nbsp;&nbsp; Natural Language Processing
           </p>
-          <p id="content4">
-            <img
-              src="images/lm_doclassification_ico.svg"
-              alt="lm_doclassification_ico"
-            />&nbsp;&nbsp;&nbsp; Document Classification
+          <p id="content4" class="mt-5">
+            <img src="images/lm_doclassification_ico.svg" alt="lm_doclassification_ico" />&nbsp;&nbsp;&nbsp; Document
+            Classification
           </p>
-          <p id="content4">
-            <img
-              src="images/lm_speechtxt_ico.svg"
-              alt="lm_speechtxt_ico"
-            />&nbsp;&nbsp;&nbsp;Speech-to-Text
+          <p id="content4" class="mt-5">
+            <img src=" images/lm_speechtxt_ico.svg" alt="lm_speechtxt_ico" />&nbsp;&nbsp;&nbsp;Speech-to-Text
           </p>
-          <p id="content4">
-            <img src="images/lm_topicmod_ico.svg" alt="lm_topicmod_ico" />
+          <p id="content4" class="mt-5">
+            <img src=" images/lm_topicmod_ico.svg" alt="lm_topicmod_ico" />
             &nbsp;&nbsp;&nbsp;Topic Modeling
           </p>
         </div>
-        <div class="col-3 p-3" id="subpage-content-two">
-          <p id="content4">
-            <img
-              src="images/lm_nlg_ico.svg"
-              alt="lm_nlp_ico"
-            />&nbsp;&nbsp;&nbsp;Natural Language Generation
+        <div class="col-lg-4 p-5" id="subpage-content-two">
+          <p id="content4" class="mt-0">
+            <img src="images/lm_nlg_ico.svg" alt="lm_nlp_ico" />&nbsp;&nbsp;&nbsp;Natural Language Generation
           </p>
-          <p id="content4">
-            <img
-              src="images/lm_textextr_ico.svg"
-              alt="lm_doclassification_ico"
-            />&nbsp;&nbsp;&nbsp; Text Extraction
+          <p id="content4" class="mt-5">
+            <img src="images/lm_textextr_ico.svg" alt="lm_doclassification_ico" />&nbsp;&nbsp;&nbsp; Text Extraction
           </p>
-          <p id="content4">
-            <img
-              src="images/lm_textanalysis_ico.svg"
-              alt="lm_speechtxt_ico"
-            />&nbsp;&nbsp;&nbsp;Text Analysis
+          <p id="content4" class="mt-5">
+            <img src="images/lm_textanalysis_ico.svg" alt="lm_speechtxt_ico" />&nbsp;&nbsp;&nbsp;Text Analysis
           </p>
-          <p id="content4">
+          <p id="content4" class="mt-5">
             <img src="images/lm_sentanlysis_ico.svg" alt="lm_topicmod_ico" />
             &nbsp;&nbsp;&nbsp;Sentiment Analysis
           </p>
         </div>
         <img src="images/video--nodes-svg.svg" alt="" />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Parellex Section -->
-    <section for="Parellex">
-      <div class="row p-4" id="parallax" style="margin: 0; padding: 0">
-        <h3  id="parallax-h3" class="text-center pt-5">
-          Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur
-          aut galisum omnis aut eius praesentium rem architecto sint non dicta
-          mollitia eum nisi veniam.
-        </h3>
-      </div>
-    </section>
+  <!-- Parellex Section -->
+  <section for="Parellex">
+    <div class="row p-4" id="parallax" style="margin: 0; padding: 0">
+      <h3 id="parallax-h3" class="text-center pt-5">
+        Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur
+        aut galisum omnis aut eius praesentium rem architecto sint non dicta
+        mollitia eum nisi veniam.
+      </h3>
+    </div>
+  </section>
 
-    <!-- Contents Section -->
-    <section for="Contents">
-      <div class="row px-5" id="contents-one" style="margin: 0; padding: 0">
-        <div class="col-5 p-5" id="content-image">
-          <img src="images/3515462.jpg" alt="" />
+  <!-- Contents Section -->
+  <section for="Contents">
+    <div class="container">
+      <div class="row" id="contents-one" style="margin: 0; padding: 0">
+        <div class="col-lg-5 col-sm-12" id="content-image">
+          <img src="images/3515462.jpg" alt="" / height="100%" width="100%">
         </div>
-        <div class="col-7 p-5" id="content-subcontent">
+        <div class="col-lg-7 col-sm-12 " id="content-subcontent">
           <h2>
             Identify and extract content from virtually any type of document.
           </h2>
@@ -166,8 +142,8 @@
           </p>
         </div>
       </div>
-      <div class="row px-5" id="contents-two">
-        <div class="col-7 p-5" id="content-subcontent">
+      <div class="row" id="contents-two">
+        <div class="col-lg-7 col-sm-12" id="content-subcontent">
           <h2>
             Leverage extracted data to derive actionable business insights.
           </h2>
@@ -192,15 +168,15 @@
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div class="col-5 px-5" id="content-image">
-          <img src="images/3937443.jpg" alt="" />
+        <div class="col-lg-5 col-sm-12" id="content-image">
+          <img src="images/3937443.jpg" alt="" / height="100%" width="100%">
         </div>
       </div>
-      <div class="row p-5" id="contents-one">
-        <div class="col-5 p-5" id="content-image">
-          <img src="images/3937464.jpg" alt="" />
+      <div class="row" id="contents-one">
+        <div class="col-lg-5 col-sm-12" id="content-image">
+          <img src="images/3937464.jpg" alt="" / height="100%" width="100%">
         </div>
-        <div class="col-7 p-5" id="content-subcontent">
+        <div class="col-lg-7 col-sm-12" id="content-subcontent">
           <h2>Get the Right Information to the Right Place, Right Away.</h2>
           <br />
           <p>
@@ -224,45 +200,36 @@
           </p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Features Section -->
-    <section for="Subpage-feature-contents">
-   <?php
+  <!-- Features Section -->
+  <section for="Subpage-feature-contents">
+    <?php
    include "feature.php";
    ?>
-    </section>
+  </section>
 
-    <!-- Subpage Carousel Section -->
-    <section for="Subpage-carousel-content">
+  <!-- Subpage Carousel Section -->
+  <section for="Subpage-carousel-content">
     <?php
     include "carousal.php"
     ?>
-    </section>
+  </section>
 
-    <!-- Get In Touch Section -->
-    <section for="Get-in-touch">
-      <div
-        class="row p-5 border bg-dark"
-        id="get-in-touch"
-        style="margin: 0; padding: 0"
-      >
-        <h2 class="text-center text-light">
-          Get started with Data Reveal Today
-        </h2>
+  <!-- Get In Touch Section -->
+  <section for="Get-in-touch">
+    <?php
+        include "get-in-touch.php";
+      ?>
+  </section>
 
-        <div class="text-center pt-4">
-          <button type="button" class="btn btn-warning">Get In Touch</button>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer Section -->
-    <section for="Footer">
-   <?php
+  <!-- Footer Section -->
+  <section for="Footer">
+    <?php
    include "footer.php";
    ?>
-    </section>
-  </body>
- 
+  </section>
+</body>
+
 </html>
