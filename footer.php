@@ -17,13 +17,28 @@
         }
         .foot li{
              list-style-type: none;
-             line-height: 2em;
+             line-height: 2.5em;
+             font-size:14px;
 
         }
         .foot a{
            text-decoration: none;
         }
 
+        #dev{
+            background-color:#1d252f; 
+            margin-top: 8%;
+        }
+        .dev a
+        {
+            text-decoration: none;
+            color:#fff;
+        }
+        .dev a:hover
+        {
+            text-decoration: none;
+            color:#0d6efd;
+        }
     </style>
 </head>
 <body>
@@ -39,9 +54,9 @@
                     <p>(310) 294 - 8955 </p>
                 </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-4">
                 <div class="foot p-5">
-                    <h5>COMPANY</h5>
+                    <h6>COMPANY</h6>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About us</a></li>
@@ -53,7 +68,7 @@
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4">
                 <div class="foot p-5">
-                    <h5>Extract Platform</h5>
+                    <h6>EXTRACT PLATFORM</h6>
                     <ul>
                         <li><a href="#">Vision</a></li>
                         <li><a href="#">Language</a></li>
@@ -63,7 +78,7 @@
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4">
                 <div class="foot p-5">
-                    <h5>Industries</h5>
+                    <h6>INDUSTRIES</h6>
                     <ul>
                         <li><a href="#">Legal</a></li>
                         <li><a href="#">Insurance</a></li>
@@ -72,7 +87,7 @@
             </div>
             <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4">
                 <div class="foot p-5">
-                    <h5>PRODUCTS</h5>
+                    <h6>PRODUCTS</h6>
                     <ul>
                         <li><a href="#">Extract Filer</a></li>
                         <li><a href="#">Extract Video Search</a></li>
@@ -84,6 +99,13 @@
   </div> 
 </div>
 
+<div class="container-fluid">
+    <div class="row" id="dev">
+            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <p style="color:#fff;" class="p-3 dev ms-4">Developed by <a href="http://vebbox.com">Vebbox Software Solutions</a></p>
+            </div>
+    </div>
+</div>
     <link rel="stylesheet" href="./js/bootstrap.min.js">
 </body>
 </html>
