@@ -74,7 +74,6 @@ nav > ul > li > a:hover{
 nav > ul > li > a{
     color: #fff;
     text-decoration: none;
-    font-weight:bold;
     text-transform: uppercase; /*for capitalisation of letters */
     line-height: 80px;
     padding: 5px 20px;
@@ -193,7 +192,9 @@ section.sec2{
             </div>
          <ul>
             <li><a href="#">Home</a></li>
-             <li><a href="#">Solutions</a></li>
+             <li><a href="#">Extract Platform</a></li>
+             <li><a href="#">Industries</a></li>
+             <li><a href="#">Products</a></li>
              <li><a href="#">About Us</a></li>
              <li><a href="#">Contact Us</a></li>
             </ul>
