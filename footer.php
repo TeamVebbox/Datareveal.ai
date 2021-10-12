@@ -33,9 +33,9 @@
         <div class="row">
             <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
                 <div class="foot p-5">
-                    <img src="./image/foundationai-logo.svg" alt="Funfationai" class="img-fluid">
-                    <address class="pt-3">17632 Irvine Blvd, Suite 225, Tustin, CA 92780</address>
-                    <a href="#">info@foundationai.com</a>
+                    <img src="./images/foundationai-logo.svg" alt="Funfationai" class="img-fluid">
+                    <p><address class="pt-3">17632 Irvine Blvd, Suite 225, Tustin, CA 92780</address></p>
+                    <p><a href="#">info@foundationai.com</a></p>
                     <p>(310) 294 - 8955 </p>
                 </div>
             </div>
