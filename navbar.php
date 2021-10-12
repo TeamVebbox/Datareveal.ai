@@ -63,8 +63,8 @@ nav > ul{
 }
 nav > ul > li{
     list-style: none;
-    /* display: inline-block; */
-    float: inline-end;
+     display: inline-block; 
+   
     
 }
 nav > ul > li > a:hover{
