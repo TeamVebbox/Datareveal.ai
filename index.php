@@ -81,13 +81,12 @@
             </div>
             </div>
         </div>
-    </section>
-
+</section>
     <!-- Carousel Section -->
     <section for="Carousel-content">
-        <div class="row p-5 border bg-warning" id="carousel">
-            <h2 class="text-center">Carousel-section</h2>
-        </div>
+      <?php
+      include "carousal.php";
+      ?>
     </section>
 
     <!-- Features Section -->

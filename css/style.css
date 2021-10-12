@@ -11,8 +11,7 @@ body{
 #landing{
     background-image: url(../images/vision-bg.jpg);
     background-size: cover;
-    min-height: 600px;
-    width: auto;
+    min-height: 500px;
 }
 #landing-contents{
     text-align: left;
@@ -23,7 +22,7 @@ body{
 }
 #landing-contents-h3{
     color: #fff;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 1.5em;
     text-align: justify;
 }
@@ -42,7 +41,7 @@ body{
 /* Parellax Section */
 #parallax {
     background-image: url(../images/parellax-bg.jpg);
-    min-height: 200px; 
+    min-height: 100px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -118,11 +117,5 @@ body{
     color: #fff;
     font-weight: normal;
     font-size: 1.5em;
-    text-align: justify;
-}
-
-/* ===API Dvelopment Page */
-
-#api-card-p{
     text-align: justify;
 }

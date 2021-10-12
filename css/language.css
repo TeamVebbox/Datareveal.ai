@@ -69,10 +69,15 @@
   font-weight: bold;
 }
 
+/* Features Section */
+#features {
+  box-shadow: 0 10px 20px rgba(16, 30, 54, 0.15);
+}
+
 /* Parellax Section */
 #parallax {
   background-image: url(../images/parellax-bg.jpg);
-  min-height: 250px;
+  min-height: 100px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

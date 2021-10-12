@@ -15,16 +15,16 @@
       <div class="row">
         <div class="owl-carousel owl-theme" style="z-index:0">
           <div class="item">
-            <img src="images/1.jpg" height="600px" alt="" />
+            <img src="images/1.jpg" height="600px" alt="" class="img-fluid"> 
           </div>
           <div class="item">
-            <img src="images/2.jpg" height="600px" alt="" />
+            <img src="images/2.jpg" height="600px" alt="" class="img-fluid">
           </div>
           <div class="item">
-            <img src="images/3.jpg" height="600px" alt="" />
+            <img src="images/3.jpg" height="600px" alt="" class="img-fluid">
           </div>
           <div class="item">
-            <img src="images/4.jpg" height="600px" alt="" />
+            <img src="images/4.jpg" height="600px" alt="" class="img-fluid">
           </div>
         </div>
       </div>
