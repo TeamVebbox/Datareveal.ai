@@ -12,12 +12,8 @@
 </head>
 
 <body>
-
     <!-- Navigation Section -->
     <section for="Nav-bar-menu">
-        <!-- <div class="row p-4 border bg-dark" id="nav-bar">
-            <h2 class="text-center text-light">Navigation-bar</h2>
-        </div> -->
         <?php
          include "navbar.php";
         ?>
