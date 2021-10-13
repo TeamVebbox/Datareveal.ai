@@ -16,16 +16,18 @@
 <body>
 
     <!-- Navigation Section -->
-
+    <section for="Nav-bar-menu">
+        <?php
+        include "navbar.php";
+        ?>
+    </section>
 
     <!-- Landing Contents -->
     <section for="landing-content">
-        <div class="row p-5 bg-secondary legal_bgimg" id="landing">
-            <h2 class=" mb-5 text-center text-light">Navigation-bar</h2>
-      
+        <div class="row p-5 bg-primary legal_bgimg" id="landing">
         <div class="text-left d-flex mx-5 ">
-            <img  src="./images/legal_extract.svg" class="legal_extract " height="48px">
-            <h5 class="mx-3">Extract Filer<br><small>Legal Automation</small></h5>
+            <img  src="./images/legal_extract.svg" class="legal_extract mt-5" height="48px">
+            <h5 class="mx-3 mt-5">Extract Filer<br><small>Legal Automation</small></h5>
                <h5><small></small></h5>
         </div>
             <h1 class="mt-5 mx-5">Automate Your Document Intake</h1>
@@ -39,8 +41,9 @@
 
     <!-- Carousel Section -->
     <section for="modelpage-carousel-content">
-                  <h2 class="text-center">.</h2>
-
+      <?php
+        include "carousal.php";
+        ?>
     </section>
 
     <!-- Modelpage Services Section -->
@@ -182,68 +185,16 @@
       </section>
       <!-- extra feature -->
       <section for="Model-services">
-        <div class="row px-5 " id="model-service">
-            <div class="text-center" id="model-service-heading">
-                <h1 class="pb-5" id="service-heading-h2">Extract Features</h1>
-            
-            </div>
-            <div class="col-lg col-md col-sm px-5  " id="model-service-one">
-                <p class="fs-3 text-center ">    
-                    <img src="./images/legal_lap1.svg" height="30%">
-                    
-                  </p>
-                  <h5 class="px-5 mx-5 text-center">It's <span class="clr-b"> Faster</span></h5>
-                  <p class="text-center clr-g">Vision, Language, and Learning models can be assembled together for intelligent process automation and insight extraction</p>
-            </div>
-            <div class="col-lg col-md col-sm px-5 " id="model-service-two">
-                <p class="fs-3 text-center">         
-                           <img src="./images/legal_lap2.svg" height="30%">
-                  </p>
-                  <h5 class="px-5 mx-5 text-center">It's <span class="clr-b"> More Accurate</span></h5>
-                  <p class="text-center clr-g">Vision, Language, and Learning models can be assembled together for intelligent process automation and insight extraction</p>
-           
-            </div>
-        </div>
-        <div class="row px-5 " id="model-service">        
-            <div class="col-lg col-md col-sm px-5  " id="model-service-one">
-                <p class="fs-3 text-center ">    
-                    <img src="./images/legal_lap3.svg" height="30%">
-                    
-                  </p>
-                  <h5 class="px-5 mx-5 text-center">It's <span class="clr-b"> Faster</span></h5>
-                  <p class="text-center clr-g">Vision, Language, and Learning models can be assembled together for intelligent process automation and insight extraction</p>
-            </div>
-            <div class="col-lg col-md col-sm px-5" id="model-service-one">
-                <p class="fs-3 text-center ">    
-                    <img src="./images/legal_lap3.svg" height="30%">
-                    
-                  </p>
-                  <h5 class="px-5 mx-5 text-center">It's <span class="clr-b"> Faster</span></h5>
-                  <p class="text-center clr-g">Vision, Language, and Learning models can be assembled together for intelligent process automation and insight extraction</p>
-            </div>
-        </div>
+       <?php 
+        include "feature.php";
+        ?>
     </section>
     
     <!-- Footer Section -->
     <section for="Footer">
-        <div class="row p-5 border bg-secondary" id="footer">
-            <h2 class="text-center">Footer-section</h2>
-            <div class="col-lg-4 col-md-4 col-sm-4 p-5 border bg-success" id="footer-part-one">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-two">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-three">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-four">
-
-            </div>
-            <div class="col-lg-2 col-md-2 col-sm-2 p-5 border bg-success" id="footer-part-five">
-
-            </div>
-        </div>
+        <?php 
+           include "footer.php";
+          ?>
     </section>
 
 </body>

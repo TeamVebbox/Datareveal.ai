@@ -1,6 +1,6 @@
-p{
+#contact-p{
     text-align: justify;
-
+    color: #fff;
 }
 .clr{
     background-color:rgb(66, 137, 252);
@@ -11,5 +11,6 @@ svg{
 }
 
 body{
-    overflow-x:hidden ;
+    background-image: url(../images/vision-bg.jpg);
+    background-size: cover;
 }
