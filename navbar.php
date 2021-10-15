@@ -94,7 +94,9 @@
         color: #000;
         line-height: 60px;
     }
-
+    nav.black span{
+        color:#000;
+    }
     nav.black>ul>li>a:hover {
         background-color: transparent;
         color: #007CE1;
@@ -186,6 +188,39 @@
             display: block;
         }
     }
+    /* dropdown */
+    .dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000046;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 16px;
+  z-index: 1;
+  
+}
+.dropdown-content a{
+ text-decoration: none;
+ line-height: 1.5em;
+ margin:5px;
+ color:#fff;   
+}
+.dropdown-content a:hover{
+ color:#ff9900;   
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin-top: 2%;
+  border-radius: 10px;  
+  text-align: center;
+}
 </style>
 
 <body>
@@ -204,9 +239,46 @@
             </div>
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="vision.php">Extract Platform</a></li>
-                <li><a href="insurance.php">Industries</a></li>
-                <li><a href="product.php">Products</a></li>
+                <li>
+                  
+                    <div class="dropdown">
+                        <span>EXTRACT PLATFORM</span>
+                            <div class="dropdown-content">
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                             </div>
+                    </div>
+                  
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <span>INDUSTRIES</span>
+                            <div class="dropdown-content">
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                             </div>
+                    </div>
+                </li>
+                <li>
+
+                <div class="dropdown">
+                        <span>PRODUCT</span>
+                            <div class="dropdown-content">
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                                <a href="#">Hello World!</a>
+                             </div>
+                    </div>
+
+                </li>
                 <li><a href="about.php">About Us</a></li>
                 <li><a href="contact.php">Contact Us</a></li>
             </ul>
