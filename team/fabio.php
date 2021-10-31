@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr.Maria Viqar | About Us</title>
+  <title>Dr.Fabio Savorgnan | About Us</title>
 
   <!-- Boostrap css -->
   <link rel="stylesheet" href="../css/bootstrap.min.css">
@@ -23,15 +23,15 @@
     <div class="container">
         <div class="row m-3" id="team-row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <img src="../images/team/maria.jpeg" alt="" height="100%" width="60%">
+                <img src="../images/team/fabio.PNG" alt="" height="100%" width="60%">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <h2 class="mt-lg-0 mt-3">Dr.Maria Viqar</h2>
-                <p class="text-muted">MD, FACC, FHRSBoard-certified in Cardiovascular
-                    Diseases
-                    Board-certified in Clinical Cardiac
-                    Electrophysiology- Mayo Clinic, Oakwood 
-                    Healthcar.</p>
+                <h2 class="mt-lg-0 mt-3">Dr.Fabio Savorgnan</h2>
+                <p class="text-muted">MD -FAPP-FACC– MSDS
+                    Cardiologist -Board Certified by American Board of
+                    Pediatrics, Neonatal and Perinatal Medicine, Critical
+                    Care Medicine, Cardiology
+                    </p>
             </div>
         </div>
     </div>
