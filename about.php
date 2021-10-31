@@ -88,7 +88,7 @@
           </div>
           <div class="links mt-1">
             <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/anil.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
@@ -107,7 +107,7 @@
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/mimohamed/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/mohamed.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
@@ -126,7 +126,7 @@
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/kristech/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/krish.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
@@ -145,7 +145,7 @@
           </div>
           <div class="links mt-1">
             <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/bala.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
@@ -164,7 +164,7 @@
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/skumar07/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/suresh.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
