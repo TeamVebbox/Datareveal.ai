@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model-subpage1 | Datareveal</title>
+    <title>Healthucare | Datareveal</title>
 
     <!-- Boostrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -22,9 +22,16 @@
         ?>
     </section>
 
+     <!-- Navigation Section For Mobile -->
+     <section for="Nav-bar-menu" class="d-block d-sm-none">
+        <?php
+            include "mobile-navbar.php";
+        ?>
+    </section>
+
     <!-- Landing Contents -->
     <section for="landing-content">
-        <div class="row p-5 bg-primary legal_bgimg" id="landing">
+        <div class="row p-5 legal_bgimg" id="landing">
         <div class="text-left d-flex mx-5 ">
             <img  src="./images/legal_extract.svg" class="legal_extract mt-5" height="48px">
             <h5 class="mx-3 mt-5">Extract Filer<br><small>Legal Automation</small></h5>

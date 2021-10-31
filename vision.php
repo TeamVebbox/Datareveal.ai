@@ -16,6 +16,7 @@
 
     <!-- Main css -->
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -23,7 +24,14 @@
     <!-- Navigation Section -->
     <section for="Nav-bar-menu">
         <?php
-            include "navbar.php";
+        include "navbar.php";
+        ?>
+    </section>
+
+     <!-- Navigation Section For Mobile -->
+     <section for="Nav-bar-menu" class="d-block d-sm-none">
+        <?php
+            include "mobile-navbar.php";
         ?>
     </section>
 
@@ -31,14 +39,14 @@
     <section for="Landing-contents">
         <div class="row" id="landing" style="padding: 0;margin: 0;">
             <div class="col-lg-4 col-md-4 col-sm-12 ms-lg-5 my-auto" id="landing-image">
-                <img src="images/vision-landing-mg.png" class="img-fluid mt-lg-0 ms-lg-4 ms-sm-0"
-                    alt="Datareveal-Vision" height="100%" width=100%">
+                <img src="images/vision-landing.png" class="img-fluid mt-lg-5 ms-lg-5 ms-sm-0" alt="Datareveal-Vision"
+                    height="100%" width=100%">
             </div>
             <div class="col-1"></div>
             <div class="col-lg-5 col-md-5 col-sm-12 my-auto p-4" id="landing-contents">
-                <h5 id="landing-contents-h5">Datareveal Extract - Vision</h5>
-                <h3 id="landing-contents-h3">Powerful software to read documents, interpret images, and analyze videos
-                </h3>
+                <h1 id="landing-contents-h5">Datareveal Extract - Vision</h1>
+                <h1 id="landing-contents-h3">Powerful software to read documents, interpret images, and analyze videos
+                </h1>
             </div>
         </div>
     </section>
@@ -54,33 +62,37 @@
                     structured data from images, videos and documents. Assemble with Language and Learning models to
                     deploy
                     customized end-to-end solutions.</p>
-                <div class="col-lg-4 col-md-4 col-sm-12" id="vision-content-one">
+                <div class="col-lg-4 col-md-4 col-sm-12" id="vision-content-one" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-duration="1000">
                     <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-1.png" class="card-img-top" alt="vision">
+                        <img src="images/service-1.webp" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text">Image Classification, Analysis and Anomaly Detection</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <a href="#" class="btn btn-primary">More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-two">
+                <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-two" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-duration="1000">
                     <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-2.png" class="card-img-top" alt="vision">
+                        <img src="images/service-2.webp" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text">Video Analytics, Search, and Object Tracking</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <a href="#" class="btn btn-primary">More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-three">
+                <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-three" data-aos="fade-up"
+                    data-aos-easing="linear" data-aos-duration="1000">
                     <div class="card p-3" id="service-card">
-                        <img src="images/service-3.png" class="card-img-top" alt="vision">
+                        <img src="images/service-3.webp" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
-                            <p class="card-text">Intelligent OCR, Document Classification, and Text Extraction</p>
-                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                            <p class="card-text">Intelligent OCR, Document Classification, and Text Extraction
+                            </p>
+                            <a href="#" class="btn btn-primary">More</a>
                         </div>
                     </div>
                 </div>
@@ -101,8 +113,9 @@
     <section for="Contents">
         <div class="container">
             <div class="row mt-5 mb-5" id="contents-one" style="margin: 0;padding: 0;">
-                <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/vision-content-1.png" alt="vision-Datareavel" height="100%" width="100%">
+                <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image" data-aos="fade-right"
+                    data-aos-easing="linear" data-aos-duration="1700">
+                    <img src="images/vision-content1.jpg" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto p-1 p-lg-0" id="content-subcontent">
@@ -127,8 +140,9 @@
                         traffic safety by tracking the number, types, and direction of vehicles moving through busy
                         intersections.</p>
                 </div>
-                <div class="col-lg-5 col-md-5 col-sm-12 p-1 ms-lg-5" id="content-image">
-                    <img src="images/vision-content-2.png" class="ms-lg-5" alt="vision-Datareavel" height="100%"
+                <div class="col-lg-5 col-md-5 col-sm-12 p-1 ms-lg-5" id="content-image" data-aos="fade-left"
+                    data-aos-easing="linear" data-aos-duration="1700">
+                    <img src="images/vision-content2.jpg" class="ms-lg-5" alt="vision-Datareavel" height="100%"
                         width="100%">
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-block d-sm-none p-4" id="content-subcontent">
@@ -144,8 +158,9 @@
                 </div>
             </div>
             <div class="row mt-5 mb-5" id="contents-one">
-                <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/vision-content-3.png" alt="vision-Datareavel" height="100%" width="100%">
+                <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image" data-aos="fade-right"
+                    data-aos-easing="linear" data-aos-duration="1700">
+                    <img src="images/vision-content3.jpg" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto p-4 p-lg-0" id="content-subcontent">
@@ -176,7 +191,7 @@
             </div>
             <div class="col-1"></div>
             <div class="col-lg-4 col-md-4 col-sm-12 my-auto" id="landing-image">
-                <img src="images/vision-landing-mg.png" class="img-fluid mt-lg-0 ms-lg-0 ms-sm-0"
+                <img src="images/vision-parallax.png" class="img-fluid mt-lg-0 ms-lg-0 ms-sm-0 me-0"
                     alt="Datareveal-Vision" height="100%" width=100%">
             </div>
         </div>
@@ -184,31 +199,70 @@
 
     <!-- Features Section -->
     <section for="Subpage-feature-contents">
-        <?php 
-            include "feature.php";
+        <?php
+        include "feature.php";
         ?>
     </section>
 
     <!-- Subpage Carousel Section -->
     <section for="Subpage-carousel-content">
-        <?php
-            include "carousal.php";
-        ?>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/4.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
     <!-- Get In Touch Section -->
     <section for="Get-in-touch">
         <?php
-            include "get-in-touch.php";
+        include "get-in-touch.php";
         ?>
     </section>
 
     <!-- Footer Section -->
     <section for="Footer">
         <?php
-            include "footer.php";
+        include "footer.php";
         ?>
     </section>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

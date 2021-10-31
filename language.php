@@ -23,12 +23,19 @@
       ?>
   </section>
 
+   <!-- Navigation Section For Mobile -->
+   <section for="Nav-bar-menu" class="d-block d-sm-none">
+        <?php
+            include "mobile-navbar.php";
+        ?>
+    </section>
+
   <!-- Landing Contents -->
   <section for="Landing-contents">
     <div class="row" id="landing" style="margin: 0; padding: 0">
       <div class="col-lg-7 col-sm-12 my-auto" id="landing-contents">
         <h5 class="text-left ms-lg-5" id="lang_title">
-          <img src="images/001-chip.png" class="" alt="ai" /> Data
+          <img src="images/001-chip.webp" class="" alt="ai" /> Data
           Reveal-Language
         </h5>
         <h3 class="text-left ms-lg-5 mt-lg-3" id="lang_title_content">
@@ -37,7 +44,7 @@
         </h3>
       </div>
       <div class="col-lg-5 col-sm-12 my-auto" id="landing-image">
-        <img src="images/lang_land_c.png" alt="lang_land_c" id="lang_land_c" / height="100%" width="100%">
+        <img src="images/lang_land_c.webp" alt="lang_land_c" id="lang_land_c" / height="100%" width="100%">
       </div>
     </div>
   </section>
@@ -113,10 +120,10 @@
   <section for="Contents">
     <div class="container">
       <div class="row" id="contents-one" style="margin: 0; padding: 0">
-        <div class="col-lg-5 col-sm-12" id="content-image">
-          <img src="images/3515462.jpg" alt="" / height="100%" width="100%">
+        <div class="col-lg-5 col-sm-12 p-lg-5" id="content-image">
+          <img src="images/3515462.webp" alt="" / height="100%" width="100%">
         </div>
-        <div class="col-lg-7 col-sm-12 " id="content-subcontent">
+        <div class="col-lg-7 col-sm-12 p-lg-5" id="content-subcontent">
           <h2>
             Identify and extract content from virtually any type of document.
           </h2>
@@ -142,8 +149,8 @@
           </p>
         </div>
       </div>
-      <div class="row" id="contents-two">
-        <div class="col-lg-7 col-sm-12" id="content-subcontent">
+      <div class="row" id="contents-two" style="margin: 0;padding: 0;">
+        <div class="col-lg-7 col-sm-12 p-lg-5" id="content-subcontent">
           <h2>
             Leverage extracted data to derive actionable business insights.
           </h2>
@@ -168,15 +175,15 @@
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div class="col-lg-5 col-sm-12" id="content-image">
-          <img src="images/3937443.jpg" alt="" / height="100%" width="100%">
+        <div class="col-lg-5 col-sm-12 p-lg-5" id="content-image">
+          <img src="images/3937443.webp" alt="" / height="100%" width="100%">
         </div>
       </div>
-      <div class="row" id="contents-one">
-        <div class="col-lg-5 col-sm-12" id="content-image">
-          <img src="images/3937464.jpg" alt="" / height="100%" width="100%">
+      <div class="row" id="contents-one" style="margin: 0;padding: 0;">
+        <div class="col-lg-5 col-sm-12 p-lg-5" id="content-image">
+          <img src="images/3937464.webp" alt="" / height="100%" width="100%">
         </div>
-        <div class="col-lg-7 col-sm-12" id="content-subcontent">
+        <div class="col-lg-7 col-sm-12 p-lg-5" id="content-subcontent">
           <h2>Get the Right Information to the Right Place, Right Away.</h2>
           <br />
           <p>
@@ -212,9 +219,32 @@
 
   <!-- Subpage Carousel Section -->
   <section for="Subpage-carousel-content">
-    <?php
-    include "carousal.php"
-    ?>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" style="height: 50%;">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="images/1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="images/2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="images/3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="images/4.webp" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+  </div>
   </section>
 
   <!-- Get In Touch Section -->

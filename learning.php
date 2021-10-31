@@ -27,6 +27,13 @@
         ?>
     </section>
 
+     <!-- Navigation Section For Mobile -->
+     <section for="Nav-bar-menu" class="d-block d-sm-none">
+        <?php
+            include "mobile-navbar.php";
+        ?>
+    </section>
+
     <!-- Landing Contents -->
     <section for="Learn-landing-contents">
         <div class="row" id="learn-landing" style="padding: 0;margin: 0;">
@@ -92,7 +99,7 @@
         <div class="container">
             <div class="row mt-5 mb-5" id="contents-one" style="margin: 0;padding: 0;">
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/learn-content-1.png" alt="vision-Datareavel" height="100%" width="100%">
+                    <img src="images/learn-content-1.webp" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto p-1 p-lg-0" id="content-subcontent">
@@ -121,7 +128,7 @@
                         events and prescribe the best course of action.</p>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1 ms-lg-5" id="content-image">
-                    <img src="images/learn-content-2.png" class="ms-lg-5" alt="vision-Datareavel" height="100%"
+                    <img src="images/learn-content-2.webp" class="ms-lg-5" alt="vision-Datareavel" height="100%"
                         width="100%">
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-block d-sm-none p-4" id="content-subcontent">
@@ -139,7 +146,7 @@
             </div>
             <div class="row mt-5 mb-5" id="contents-one">
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/learn-content-3.png" alt="vision-Datareavel" height="100%" width="100%">
+                    <img src="images/learn-content-3.webp" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto p-4 p-lg-0" id="content-subcontent">

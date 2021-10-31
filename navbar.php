@@ -55,12 +55,13 @@
     }
 
     nav .logo img {
-        height: 80px;
+        height: 50px;
         transition: .5s;
+        
     }
 
     nav.black .logo img {
-        height: 60px;
+        height: 50px;
     }
 
     nav>ul {
@@ -194,13 +195,15 @@
   display: inline-block;
   padding: 5px 20px;
   color: #fff;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #000046;
-  min-width: 160px;
+  background-color: #fff;
+  min-width: 220px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 16px;
   z-index: 1;
@@ -208,18 +211,19 @@
 }
 .dropdown-content a{
  text-decoration: none;
- line-height: 1.5em;
+ line-height: 2em;
  margin:5px;
- color:#fff;   
+ color:#000;  
+ font-size:1.1em; 
 }
 .dropdown-content a:hover{
- color:#ff9900;   
+ color:#37d0f7;
 }
 .dropdown:hover .dropdown-content {
   display: block;
   margin-top: 2%;
   border-radius: 10px;  
-  text-align: center;
+  text-align: left;
 }
 </style>
 
@@ -227,7 +231,7 @@
     <div class="d-none d-sm-none d-md-none d-lg-block">
         <nav class="responsive-bar">
             <div class="logo">
-                <img src="#" alt="logo" />
+                <img src="#" alt="logo"  />
             </div>
             <div class="menu">
                 <h4>Menu</h4>
@@ -235,20 +239,19 @@
         </nav>
         <nav>
             <div class="logo">
-                <img src="images/logo.png" alt="logo" />
+                <img src="images/logo.png" alt="logo" class="mt-1" />
             </div>
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li>
-                  
+                <li>   
                     <div class="dropdown">
                         <span>EXTRACT PLATFORM</span>
                             <div class="dropdown-content">
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
+                                <a href="vision.php">Vision</a><br>
+                                <a href="language.php">Language</a><br>
+                                <a href="learning.php">Learning</a><br>
+                                <a href="api-development.php">API Development</a><br>
+                                <a href="product-development.php">Product Development</a>
                              </div>
                     </div>
                   
@@ -257,11 +260,8 @@
                     <div class="dropdown">
                         <span>INDUSTRIES</span>
                             <div class="dropdown-content">
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
+                                <a href="legal.php">Healthcare</a><br>
+                                <a href="insurance.php">Insurance</a>
                              </div>
                     </div>
                 </li>
@@ -270,11 +270,8 @@
                 <div class="dropdown">
                         <span>PRODUCT</span>
                             <div class="dropdown-content">
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
-                                <a href="#">Hello World!</a>
+                                <a href="product.php">FL7-FHIR API</a><br>
+                                <a href="product1.php">GENOMICS API</a>
                              </div>
                     </div>
 

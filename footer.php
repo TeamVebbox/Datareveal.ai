@@ -9,7 +9,6 @@
     <style>
         .foot
         {
-             height: 200px;
              width: auto;
         }
         .foot ul{
@@ -27,17 +26,17 @@
 
         #dev{
             background-color:#1d252f; 
-            margin-top: 10%;
         }
         .dev a
         {
             text-decoration: none;
-            color:#fff;
+            color:#0d6efd;
+            text-transform: uppercase;
+            font-size: medium;
         }
         .dev a:hover
         {
             text-decoration: none;
-            color:#0d6efd;
         }
     </style>
 </head>
@@ -46,51 +45,51 @@
    <div class="row">
     <div class="container">
         <div class="row">
-            <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                <div class="foot p-5">
-                    <img src="./images/foundationai-logo.svg" alt="Funfationai" class="img-fluid">
-                    <p><address class="pt-3">17632 Irvine Blvd, Suite 225, Tustin, CA 92780</address></p>
-                    <p><a href="#">info@foundationai.com</a></p>
-                    <p>(310) 294 - 8955 </p>
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                <div class="foot ps-5 p-lg-5 p-md-5 p-sm-5">
+                    <img src="./images/logo.png" alt="Funfationai" class="img-fluid mt-2" height="80%" width="80%">
+                    <p><address class="pt-3"> 4924, Durham Dr, Plano, Texas 75093</address></p>
+                    <p><a href="mailto:info@datareavel.ai">info@datareavel.ai</a></p>
+                    <p>704-206-9793 </p>
                 </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-4">
-                <div class="foot p-5">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
+                <div class="foot ps-5 p-lg-5 p-md-5 p-sm-5">
                     <h6>COMPANY</h6>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Library</a></li>
-                        <li><a href="#">Terms & Conditions</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About us</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4">
-                <div class="foot p-5">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+                <div class="foot ps-5 p-lg-5 p-md-5 p-sm-5">
                     <h6>EXTRACT PLATFORM</h6>
                     <ul>
-                        <li><a href="#">Vision</a></li>
-                        <li><a href="#">Language</a></li>
-                        <li><a href="#">Learning</a></li>
+                        <li><a href="vision.php">Vision</a></li>
+                        <li><a href="language.php">Language</a></li>
+                        <li><a href="learning.php">Learning</a></li>
+                        <li><a href="api-development.php">API development</a></li>
+                        <li><a href="product-development.php">Product development</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4">
-                <div class="foot p-5">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
+                <div class="foot ps-5 p-lg-5 p-md-5 p-sm-5">
                     <h6>INDUSTRIES</h6>
                     <ul>
-                        <li><a href="#">Legal</a></li>
-                        <li><a href="#">Insurance</a></li>
+                        <li><a href="legal.php">Healthcare</a></li>
+                        <li><a href="learning.php">Insurance</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-4">
-                <div class="foot p-5">
+            <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-12">
+                <div class="foot ps-5 p-lg-5 p-md-5 p-sm-5">
                     <h6>PRODUCTS</h6>
                     <ul>
-                        <li><a href="#">Extract Filer</a></li>
-                        <li><a href="#">Extract Video Search</a></li>
+                        <li><a href="product.php">FL7-FHIR API</a></li>
+                        <li><a href="product1.php">GENOMICS DNA API</a></li>
                     </ul>
                 </div>
             </div>
@@ -105,7 +104,7 @@
             <p style="color:#fff; font-size: 20px;" class="p-3 dev ms-4">Developed by <a href="http://vebbox.com">Vebbox Software Solutions</a></p>
         </div>
             <div class="col-xxl-6 col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                <p style="color:#fff; font-size: 20px;" class="p-3 dev ms-4">All right Reserved &copy; Foundation AI</p>
+                <p style="color:#fff; font-size: 20px;" class="p-3 dev ms-4">All right Reserved &copy; Datareveal AI</p>
             </div>
     </div>
 </div>

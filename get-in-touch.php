@@ -27,7 +27,7 @@
                 Get started with Data Reveal Today
             </h2>
 
-            <div class="text-center pt-4">
+            <div class="text-center pt-4" data-aos="fade-up" data-aos-duration="1500">
                 <button type="button" class="btn btn-outline-warning">Get In Touch</button>
             </div>
         </div>

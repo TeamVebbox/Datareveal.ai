@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product | Datareveal</title>
+    <title>GENOMICS DNA API  | Datareveal</title>
 
     <!-- Boostrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -21,18 +21,25 @@
         ?>
     </section>
 
+     <!-- Navigation Section For Mobile -->
+     <section for="Nav-bar-menu" class="d-block d-sm-none">
+        <?php
+            include "mobile-navbar.php";
+        ?>
+    </section>
+
     <!-- Landing Contents -->
     <section for="Landing-contents">
         <div class="row" id="landing" style="padding: 0;margin: 0;">
            
             <div class="col-1"></div>
             <div class="col-lg-5 col-md-5 col-sm-12 my-auto p-4" id="landing-contents">
-                <h5 id="landing-contents-h5">Datareveal Extract - Vision</h5>
+                <h5 id="landing-contents-h5">Datareveal Extract - Products</h5>
                 <h3 id="landing-contents-h3">Lorem ipsum dolor sit amet. Et fuga totam in dolor reprehenderit quo
                     repudiandae nobis ut voluptatum modi. Qui velit sapiente et minima maiores aut necessitatibus.</h3>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 ms-lg-5 my-auto" id="landing-image">
-                <img src="images/lang_land_c.png" class="img-fluid mt-5 ms-4 ms-sm-0" alt="Datareveal-Vision"
+                <img src="images/lang_land_c.webp" class="img-fluid mt-5 ms-4 ms-sm-0" alt="Datareveal-Vision"
                     height="100%" width=90%">
             </div>
         </div>
@@ -69,7 +76,7 @@
         <!-- 1 -->
         <div class="row p-5">
             <div class="col-lg-5 col-sm-12 p-5" >
-                <img src="images/integillent-search.jpg" id="pro-img">
+                <img src="images/integillent-search.webp" id="pro-img">
             </div>
             <div class="col-lg-7 col-sm-12 p-5" style="margin-top: -5%;">
                 <p id="pro-con"><strong>Intelligent Search</strong></p>
@@ -80,21 +87,21 @@
         <!-- 2 -->
         <div class="row p-5" style="margin-top: -8%;">
             <div class="col-lg-5 col-sm-12 p-5 my-auto d-block d-sm-none">
-                <img src="images/Bespoke Analytics.jpg" id="pro-img">
+                <img src="images/Bespoke Analytics.webp" id="pro-img">
             </div>
             <div class="col-lg-7 col-sm-12 p-5" style="margin-top: -5%;">
                 <p id="pro-con"><strong>Bespoke Analytics</strong></p>
                 <p id="pro-con-sub">Extract Video Search goes beyond pointing you to the exact moments in video where objects appear. It enables you to generate analytics for the metrics that matter to you. Automatically generate reports that identify how many times an object appeared in a specified set of videos or how long a person spent in a given area.</p>
             </div>
             <div class="col-lg-5 col-sm-12 p-5 my-auto d-none d-sm-block">
-                <img src="images/Bespoke Analytics.jpg" id="pro-img">
+                <img src="images/Bespoke Analytics.webp" id="pro-img">
             </div>
         </div>
 
         <!-- 3 -->
         <div class="row p-5" style="margin-top: -8%;">
             <div class="col-lg-5 col-sm-12 p-5">
-                <img src="images/self-training.jpg" id="pro-img">
+                <img src="images/self-training.webp" id="pro-img">
             </div>
             <div class="col-lg-7 col-sm-12 p-5" style="margin-top: -5%;">
                 <p id="pro-con"><strong>Self-Training</strong></p>
@@ -105,14 +112,14 @@
         <!-- 4 -->
          <div class="row p-5" style="margin-top: -8%;">
             <div class="col-lg-5 col-sm-12 p-5 my-auto d-block d-sm-none">
-                <img src="images/inteligent-alert.jpg" id="pro-img">
+                <img src="images/inteligent-alert.webp" id="pro-img">
             </div>
             <div class="col-lg-7 col-sm-12 p-5" style="margin-top: -5%;">
                 <p id="pro-con"><strong>Integration & Alerts</strong></p>
                 <p id="pro-con-sub">Delivered in the cloud or on prem, and with a robust API and suite of configurable connectors, Extract Video Search can integrate with virtually any video storage or downstream system. This enables us to search through your videos no matter where they live and trigger alerts as well as downstream workflows based on what is found in your videos.</p>
             </div>
             <div class="col-lg-5 col-sm-12 p-5 my-auto d-none d-sm-block">
-                <img src="images/inteligent-alert.jpg" id="pro-img">
+                <img src="images/inteligent-alert.webp" id="pro-img">
             </div>
         </div>
       
@@ -134,54 +141,50 @@
 
     <!-- Features Section -->
     <section for="Subpage-feature-contents">
-        <div class="container mb-5">
-            <div class="row mt-3" id="subpage-features" style="margin: 0;padding: 0;">
-                <div class="mb-3" id="subpage-feature-heading">
-                    <h1 class="text-center" id="subpage-feature-heading-h1">Features</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-1.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-2.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-3.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-                <div class="ol-lg-6 col-md-6 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-4.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-                <div class="ol-lg-12 col-md-12 col-sm-12 p-5 text-center" id="features">
-                    <img src="images/vision-feature-5.svg" alt="feature-vision" class="mb-2">
-                    <h3>Lorem ipsm!</h3>
-                    <p>Lorem ipsum dolor sit amet. In odit architecto id explicabo tenetur aut
-                        galisum omnis.</p>
-                </div>
-            </div>
-        </div>
+       <?php
+        include "feature.php";
+        ?>
     </section>
     <!-- Subpage Carousel Section -->
     <section for="Carousel-content">
-      <?php
-      include "carousal.php";
-      ?>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/4.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
     
-
    <!-- Get In Touch Section -->
    <section for="Get-in-touch">
         <?php

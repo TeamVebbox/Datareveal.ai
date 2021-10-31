@@ -26,11 +26,18 @@
         include "navbar.php";?>
     </section>
 
+     <!-- Navigation Section For Mobile -->
+     <section for="Nav-bar-menu" class="d-block d-sm-none">
+        <?php
+            include "mobile-navbar.php";
+        ?>
+    </section>
+
     <!-- Landing Contents -->
     <section for="Landing-contents">
         <div class="row" id="landing" style="padding: 0;margin: 0;">
             <div class="col-lg-4 col-md-4 col-sm-12 ms-lg-5 my-auto" id="landing-image">
-                <img src="images/api-landing.png" class="img-fluid mt-lg-0 ms-lg-4 ms-sm-0" alt="Datareveal-Vision"
+                <img src="images/api-landing.webp" class="img-fluid mt-lg-0 ms-lg-4 ms-sm-0" alt="Datareveal-Vision"
                     height="100%" width=100%">
             </div>
             <div class="col-1"></div>
@@ -58,7 +65,7 @@
                 </p>
                 <div class="col-lg-4 col-md-4 col-sm-12" id="vision-content-one">
                     <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-1.png" class="card-img-top" alt="vision">
+                        <img src="images/service-1.webp" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text" id="api-card-p">Our developers always utilize best practices when
@@ -72,7 +79,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-two">
                     <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-2.png" class="card-img-top" alt="vision">
+                        <img src="images/service-2.webp" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text" id="api-card-p">We implement internal and external API development
@@ -86,7 +93,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-three">
                     <div class="card p-3" id="service-card">
-                        <img src="images/service-3.png" class="card-img-top" alt="vision">
+                        <img src="images/service-3.webp" class="card-img-top" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text" id="api-card-p">Our custom API integration solutions encompass
@@ -119,7 +126,7 @@
         <div class="container">
             <div class="row mt-5 mb-5" id="contents-one" style="margin: 0;padding: 0;">
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/vision-content-1.jpg" alt="vision-Datareavel" height="100%" width="100%">
+                    <img src="images/vision-content-1.webp" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto p-1 p-lg-0" id="content-subcontent">
@@ -140,7 +147,7 @@
                         interfaces and Docker containers with added custom business logic.</p>
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1 ms-lg-5" id="content-image">
-                    <img src="images/vision-content-2.jpg" class="ms-lg-5" alt="vision-Datareavel" height="100%"
+                    <img src="images/vision-content-2.webp" class="ms-lg-5" alt="vision-Datareavel" height="100%"
                         width="100%">
                 </div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto d-block d-sm-none p-4" id="content-subcontent">
@@ -153,7 +160,7 @@
             </div>
             <div class="row mt-5 mb-5" id="contents-one">
                 <div class="col-lg-5 col-md-5 col-sm-12 p-1" id="content-image">
-                    <img src="images/vision-content-3.jpg" alt="vision-Datareavel" height="100%" width="100%">
+                    <img src="images/vision-content-3.webp" alt="vision-Datareavel" height="100%" width="100%">
                 </div>
                 <div class="col-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-12 ps-lg-5 my-auto p-4 p-lg-0" id="content-subcontent">
@@ -185,9 +192,42 @@
 
     <!-- Subpage Carousel Section -->
     <section for="Subpage-carousel-content">
-        <?php
-            include "carousal.php";
-        ?>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/4.webp" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
 
     <!-- Get In Touch Section -->
