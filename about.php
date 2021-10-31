@@ -183,7 +183,7 @@
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/rishhibala["><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/rishhi.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
@@ -202,7 +202,7 @@
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/ankit-rk/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/ankit.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
@@ -230,7 +230,7 @@
           <div class="links mt-1">
             <a href="https://eps.leeds.ac.uk/chemical-engineering/staff/264/dr-s-joseph-antony"><i
                 class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/joseph.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
@@ -249,7 +249,7 @@
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/faizanjaved/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/faizan.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
@@ -268,7 +268,7 @@
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/fabio-savorgnan-46266769/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="#"
+            <a target="_blank" href="./team/fabio.php"
               style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);">view
               more</a>
           </div>
