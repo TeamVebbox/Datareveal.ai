@@ -37,9 +37,9 @@
     <div class="row my-auto" id="about-landing" style="margin: 0;padding:0;">
       <div class="col-lg-12 col-md-12 col-sm-12 pt-lg-5 ps-lg-5 pt-md-0 pt-lg-0 pt-sm-0 pt-5"
         id="about-landing-contents">
-        <h2 class="mt-lg-5 pt-lg-5 mx-lg-5 mb-lg-5 mb-3" id="about-land-h2">Datareavel</h2>
+        <h2 class="mt-lg-5 pt-lg-5 mx-lg-5 mb-lg-5 mb-3" id="about-land-h2">Datareveal</h2>
         <h3 class="mx-lg-5 mb-lg-5 mb-5" id="about-land-h3">ARCHITECTING INTELLIGENCE™</h3>
-        <p class="mx-lg-5" id="about-land-p">Datareavel AI is a California based technology company on a mission to
+        <p class="mx-lg-5" id="about-land-p">Datareveal AI is a Texas based technology company on a mission to
           build
           artificial intelligence for the real world. We leverage advances in computer vision, natural
           language processing, and machine learning to help organizations process, manage, and leverage their
@@ -63,14 +63,15 @@
             <h3>Dr. Maria Viqar</h3>
             <p>Cardiovascular Diseases Surgeon</p>
             <p>
-              CEO, Co-Founder of Data Reveal AI
-            </p>
+              CMO and President of Data Reveal AI
+            </p><br>
           </div>
           <div class="links mt-1">
             <!-- <a target="_blank" href="#"><i class="fab fa-instagram"></i></a> -->
             <!-- <a target="_blank" href="#"><i class="fab fa-github"></i></a> -->
             <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
-            <a target="_blank" href="./team/maria.php" style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);"
+            <a target="_blank" href="./team/maria.php"
+              style="text-decoration: none;text-transform: uppercase;font-weight: 500;color: rgb(35, 182, 219);"
               id="view-btn">view more</a>
           </div>
         </div>
@@ -81,10 +82,10 @@
           <div class="text">
             <img src="images/team/anil.jpeg" alt="anil datareveal">
             <h3>Anil Bariki</h3>
-            <p>President Data Sciences</p>
+            <p>Vice President, Data Sciences</p>
             <p>
-              Co-Founder of Data Reveal AI
-            </p>
+              CEO and President of Data Reveal AI
+            </p><br>
           </div>
           <div class="links mt-1">
             <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
@@ -100,9 +101,9 @@
           <div class="text">
             <img src="images/team/mohamed.jpeg" alt="mohamed datareveal">
             <h3>Dr. Mohamed Ibrahim</h3>
-            <p>Senior Researcher, Oxford University, UK</p>
+            <p style="text-align:center">Senior Researcher with a Professor, Oxford University, UK</p>
             <p>
-              CIO, Co-Founder of Data Reveal AI
+              CIO and Chief Computer Vision Scientist of Data Reveal AI
             </p>
           </div>
           <div class="links mt-1">
@@ -118,11 +119,11 @@
         <div class="card">
           <div class="text">
             <img src="images/team/krish.jpeg" alt="krish datareveal">
-            <h3>Krish Ghimire</h3>
+            <h3>Kris Ghimire</h3>
             <p>Senior Data Scientist</p>
             <p>
-              CFO, Co-Founder of Data Reveal AI
-            </p>
+              Chief Data Scientist of Data Reveal AI
+            </p><br>
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/kristech/"><i class="fab fa-linkedin"></i></a>
@@ -140,8 +141,8 @@
             <h3>Bala Daks</h3>
             <p>Senior Data Scientist</p>
             <p>
-              Vice-President, Founder of Data Reveal AI
-            </p>
+              COO and Founder of Data Reveal AI
+            </p><br>
           </div>
           <div class="links mt-1">
             <a target="_blank" href="#"><i class="fab fa-linkedin"></i></a>
@@ -159,8 +160,8 @@
             <h3>Suresh Kumar</h3>
             <p>Senior Cybersecurity Architect</p>
             <p>
-              CISO, Co-Founder of Data Reveal AI
-            </p>
+              CISO and Vice President of Data Reveal AI
+            </p><br>
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/skumar07/"><i class="fab fa-linkedin"></i></a>
@@ -178,8 +179,8 @@
             <h3>Rishhi Balakrishnan</h3>
             <p>Principal AI/ML Engineer</p>
             <p>
-              Co-Founder of Data Reveal AI
-            </p>
+              Principal AI/ML  Strategy Architect
+            </p><br>
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/rishhibala["><i class="fab fa-linkedin"></i></a>
@@ -197,8 +198,8 @@
             <h3>Ankit Kumar</h3>
             <p>iOS Engineer</p>
             <p>
-              Co-Founder of Data Reveal AI
-            </p>
+              Principal iOS / Mobile App  Strategy Architect
+            </p><br>
           </div>
           <div class="links mt-1">
             <a href="https://www.linkedin.com/in/ankit-rk/"><i class="fab fa-linkedin"></i></a>

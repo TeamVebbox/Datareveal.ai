@@ -116,7 +116,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* width: 500px; */
+    min-height: 480px;
 }
 
 .card .text {
@@ -203,8 +203,15 @@
     border-radius: 5px;
 }
 
+#team-row h2 {
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
 #team-row p {
-    font-size: 1.4em;
+    font-size: 1.1em;
     line-height: 1.5em;
     text-align: justify;
+    text-indent: 5em;
 }

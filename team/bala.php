@@ -22,23 +22,14 @@
 <section for="Teamates">
     <div class="container">
         <div class="row m-5" id="team-row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <img src="../images/team/bala.jpeg" alt="" height="100%" width="60%">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-12 text-center">
+                <img src="../images/team/bala.jpeg" alt="" height="100%" width="80%">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <h2 class="mt-lg-0 mt-3">Bala Daks</h2>
-                <p class="text-muted">MSDS- Data Scientist 
-                    <ul>
-                        <li>7 Years -Health Care</li>
-                        <li>10 Years -Banking</li>
-                        <li>3 Years- Insurance</li>
-                        <li> NTT Data – Apria, Care First, BCBS, Optum, Tenet Health cares</li>
-                        <li>Banking: Chase, Bank Of America, Sun Trust, Citi, TD, CIBC
-                             Card Processors- Master Card, Vantiv</li>
-                        <li>Insurers- Hanover, John Hancock and Nationwide</li>
-                        <li>Entrepreneur: Owner of Imaging Clinic</li>
-                  </ul>
+            <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+                <h2 class="mt-lg-0 mt-3">Balasubramaniam Dakshinamoorthi</h2>
+                <p>Bala Daks acts as our COO (Chief Operating Officer) and brings 21+ Years’ experience in delivering programs across multiple industries managing a multi-million $$ portfolio for fortune 100 organizations. His experience includes managing and delivering projects in Health Care, Banking, Insurance, and other domains. Some of his clients are- City of Las Vegas, Health Care - Apria, Care First, CBS, Optum, Tenet Health Care, Banking- Chase, Bank of America, Sun Trust, Citi, TD, CIBC,  Insurance - Hanover, Nationwide,  Card Processor-Master Card, Vantiv.
                 </p>
+                <p>Bala holds a Master's Degree in Data Science and a Master's Degree in Engineering (M.Eng.). </p>
             </div>
         </div>
     </div>

@@ -260,8 +260,13 @@
                     <div class="dropdown">
                         <span>INDUSTRIES</span>
                             <div class="dropdown-content">
-                                <a href="legal.php">Healthcare</a><br>
-                                <a href="insurance.php">Insurance</a>
+                                <a href="#">Healthcare</a><br>
+                                <a href="#">Insurance</a>
+                                <a href="#">Transportation</a><br>
+                                <a href="#">Legal</a><br>
+                                <a href="#">Data</a><br>
+                                <a href="#">Banking</a>
+                                <a href="#">Cybersecurity</a>
                              </div>
                     </div>
                 </li>

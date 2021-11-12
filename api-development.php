@@ -64,8 +64,8 @@
                     writing a new program, a developer does not have to begin from scratch to build a core application.
                 </p>
                 <div class="col-lg-4 col-md-4 col-sm-12" id="vision-content-one">
-                    <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-1.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 mb-2 text-center" id="service-card">
+                        <img src="images/api-serv-one.png" class="img-fluid" height="30%" width="50%" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text" id="api-card-p">Our developers always utilize best practices when
@@ -78,8 +78,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-two">
-                    <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-2.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 mb-2 text-center" id="service-card">
+                        <img src="images/api-serv-two.png" class="img-fluid" height="30%" width="50%" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text" id="api-card-p">We implement internal and external API development
@@ -92,8 +92,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-three">
-                    <div class="card p-3" id="service-card">
-                        <img src="images/service-3.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 text-center" id="service-card">
+                        <img src="images/api-serv-three.png" class="img-fluid" height="30%" width="50%" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text" id="api-card-p">Our custom API integration solutions encompass

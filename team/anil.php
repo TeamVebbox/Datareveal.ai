@@ -21,13 +21,14 @@
   <!-- Member Details -->
 <section for="Teamates">
     <div class="container">
-        <div class="row m-3" id="team-row">
+        <div class="row m-5" id="team-row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <img src="../images/team/anil.jpeg" alt="" height="100%" width="60%">
+                <img src="../images/team/anil.jpeg" alt="" height="100%" width="80%">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <h2 class="mt-lg-0 mt-3">Anil Bariki</h2>
-                <p class="text-muted">...</p>
+                <p>Anil is our President and CEO of Data Reveal.AI. He leads the vision and growth strategy for the company. He brings over 25+ years of Data and Analytics experience, serving in multiple industries. Anil led the vision and strategy for various organizations to enable Data Engineering, Data Science and Advanced Analytics Platform with Hybrid Cloud strategy for building predictive models generating actionable insights that are governed and secured.</p>
+                <p>Anil has MBA in strategy and an undergraduate in Mechanical Engineering. He lives with his wife and two kids in Dallas.</p>
             </div>
         </div>
     </div>

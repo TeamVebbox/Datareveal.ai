@@ -61,8 +61,8 @@
                     steps that includes the conceptualization, design, development and marketing of newly created or
                     newly rebranded goods or services.</p>
                 <div class="col-lg-4 col-md-4 col-sm-12" id="vision-content-one">
-                    <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-1.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 mb-2 text-center" id="service-card">
+                        <img src="images/product-serv-one.png" class="img-fluid" height="auto" width="40%"  alt="product">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text">A large part of the development of any product is the strategy. We
@@ -74,8 +74,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-two">
-                    <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-2.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 mb-2 text-center" id="service-card">
+                        <img src="images/product-serv-two.png" class="img-fluid" height="auto" width="40%"  alt="product">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text">We manage the engagement, execute against the plan, build what’s
@@ -87,8 +87,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-three">
-                    <div class="card p-3" id="service-card">
-                        <img src="images/service-3.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 text-center" id="service-card">
+                        <img src="images/product-serv-three.png" class="img-fluid" height="auto" width="40%"  alt="product">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text">Your product is unique, and we know that. We determine the right
@@ -173,24 +173,6 @@
         </div>
     </section>
 
-    <!-- Parellex Section -->
-    <section for="Parellex">
-        <div class="row p-4" id="parallax" style="margin: 0;padding: 0;">
-            <h3 id="parallax-h3" class="text-center p-5">Product development comprises of all the processes, which leads
-                the formation of a
-                product starting from the Initial idea to the sale of the final product. It is the key tool to keep the
-                companies in competition with the competitor products and to keep up with the changes and trends in the
-                market.</h3>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section for="Subpage-feature-contents">
-        <?php 
-            include "feature.php";
-        ?>
-    </section>
-
     <!-- Subpage Carousel Section -->
     <section for="Subpage-carousel-content">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -229,6 +211,13 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </section>
+
+      <!-- Features Section -->
+      <section for="Subpage-feature-contents">
+        <?php 
+            include "feature.php";
+        ?>
     </section>
 
     <!-- Get In Touch Section -->

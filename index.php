@@ -68,10 +68,7 @@
                     <img src="./images/eye-scanner_1.svg" alt="" srcset="" height="50px" width="50px" class="mt-5">
                     <h4 class="mt-3 text-uppercase">Vision</h4>
                     <div class="mt-4 p-3">
-                        <p id="service-p">Image Processing, Video Analysis, and Intelligent OCR to <span>extract
-                                structured data</span>
-                            from
-                            unstructured <br> images, videos and documents.</p>
+                        <p id="service-p">Video Analysis, Image Processing, Robotic Surgery and Intelligent OCR to Extract Structured Data from unstructured images, videos and documents.</p>
                     </div>
                 </div>
             </div>
@@ -81,10 +78,7 @@
                     <img src="./images/file_1.svg" alt="" height="50px" width="50px" class="mt-5">
                     <h4 class="mt-3 text-uppercase">Language</h4>
                     <div class="mt-4 p-3">
-                        <p id="service-p">Content Classification, Text Extraction, and Language Analysis models to
-                            <span>automate
-                                document
-                                processing</span> and streamline workflows.
+                        <p id="service-p">NLP-NLU-NLG,  Chat Analytics, Topic Modelling, Customer Segmentation, Compare the similarity of new input documents to the documents used to train your NLP models.
                         </p>
                     </div>
                 </div>
@@ -95,9 +89,7 @@
                     <img src="./images/lightbulb.svg" alt="" srcset="" height="50px" width="50px" class="mt-5">
                     <h4 class="mt-3 text-uppercase">learning</h4>
                     <div class="mt-4 p-3">
-                        <p id="service-p">Machine Learning, Deep Learning and Graph-Based models to detect patterns,
-                            extract
-                            actionable insights, and <span>optimize decision-making</span>.</p>
+                        <p id="service-p">Machine Learning, Deep Learning, Reinforcement Learning [RL] and Graph-Based models to detect patterns, extract actionable insights, and Optimize Decision-Making.</p>
                     </div>
                 </div>
             </div>
@@ -109,9 +101,7 @@
                         <img src="./images/api-develop.svg" alt="" srcset="" height="50px" width="50px" class="mt-5">
                         <h4 class="mt-3 text-uppercase">api development</h4>
                         <div class="mt-4 p-3">
-                            <p id="service-p">Machine Learning, Deep Learning and Graph-Based models to detect patterns,
-                                extract
-                                actionable insights, and <span>optimize decision-making</span>.</p>
+                            <p id="service-p">FHIR-HL7 Conversion, Email Invoice Classification, Genomic DNA API, IoT Transportation Real-Time Vehicle Tracking/Anomaly Detection, Crime Prevention API.</p>
                         </div>
                     </div>
                 </div>
@@ -122,9 +112,7 @@
                             class="mt-5">
                         <h4 class="mt-3 text-uppercase">Product development</h4>
                         <div class="mt-4 p-3">
-                            <p id="service-p">Machine Learning, Deep Learning and Graph-Based models to detect patterns,
-                                extract
-                                actionable insights, and <span>optimize decision-making</span>.</p>
+                            <p id="service-p">Incident Linkage Detection Tool, Patient Readmission Prediction Tool/App,  Data Quality Anomaly Detection Tool.</p>
                         </div>
                     </div>
                 </div>

@@ -45,11 +45,12 @@
    <div class="row">
     <div class="container">
         <div class="row">
-            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-3 col-12">
                 <div class="foot ps-5 p-lg-5 p-md-5 p-sm-5">
                     <img src="./images/logo.png" alt="Funfationai" class="img-fluid mt-2" height="80%" width="80%">
-                    <p><address class="pt-3"> 4924, Durham Dr, Plano, Texas 75093</address></p>
-                    <p><a href="mailto:info@datareavel.ai">info@datareavel.ai</a></p>
+                    <p><address class="pt-3"> 5050 Quorum Drive, Suite 700, Dallas, TX 75254, USA</address></p>
+                    <p><address class="pt-3"> Suite 207, 4430 Bathurst Street, North York, Toronto, ON M3H3S3, Canada</address></p>
+                    <p><a href="mailto:info@datareveal.ai">info@datareveal.ai</a></p>
                     <p>704-206-9793 </p>
                 </div>
             </div>
@@ -63,7 +64,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
+            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-2  col-sm-3 col-12">
                 <div class="foot ps-5 p-lg-5 p-md-5 p-sm-5">
                     <h6>EXTRACT PLATFORM</h6>
                     <ul>
@@ -79,8 +80,13 @@
                 <div class="foot ps-5 p-lg-5 p-md-5 p-sm-5">
                     <h6>INDUSTRIES</h6>
                     <ul>
-                        <li><a href="legal.php">Healthcare</a></li>
-                        <li><a href="learning.php">Insurance</a></li>
+                        <li><a href="#">Healthcare</a></li>
+                        <li><a href="#">Insurance</a></li>
+                        <li><a href="#">Transportation</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Data</a></li>
+                        <li><a href="#">Banking</a></li>
+                        <li><a href="#">Cybersecurity</a></li>
                     </ul>
                 </div>
             </div>

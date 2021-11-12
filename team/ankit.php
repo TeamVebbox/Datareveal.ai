@@ -21,14 +21,14 @@
   <!-- Member Details -->
 <section for="Teamates">
     <div class="container">
-        <div class="row m-3" id="team-row">
+        <div class="row m-5" id="team-row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <img src="../images/team/ankit.jpeg" alt="" height="100%" width="60%">
+                <img src="../images/team/ankit.jpeg" alt="" height="100%" width="70%">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                 <h2 class="mt-lg-0 mt-3">Ankit Kumar</h2>
-                <p class="text-muted">Bachelor of Engineering in Computer Science
-iOS Developer</p>
+                <p>Ankit acts as our Principal Architect for Data Reveal.AI and leads our iOS / Mobile E2E product platforms and solutions. In addition, Ankit has experience architecting, building, and deploying AI/ML products on mobile operating systems. </p>
+                <p>Ankit holds a Bachelor’s degree in Computer Science.</p>
             </div>
         </div>
     </div>

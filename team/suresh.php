@@ -21,37 +21,15 @@
   <!-- Member Details -->
 <section for="Teamates">
     <div class="container">
-        <div class="row m-2" id="team-row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+        <div class="row m-5" id="team-row">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-12 text-center">
                 <img src="../images/team/suresh.jpeg" class="img-fluid" height="100%" width="90%">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="col-lg-7 col-md-6 col-sm-12 col-12">
                 <h2 class="mt-lg-0 mt-3">Suresh Kumar</h2>
-                <p class="text-muted">Master of Engineering (M.Eng) in 
-                    Electronics Engineering
-                    <ul>
-                    <li>25+ years of Security Engineering Experience</li>
-                    <li> Eminent Enterprise Security Architect on 
-                        Cybersecurity and Cloud Security</li>
-                    <li>Worked in the Banking industry for over 12yrs 
-                        including AMEX, ABN AMRO, CBA</li>
-                    <li> Worked for 10yrs in the State and Federal 
-                        Government sector</li>
-                    <li>Experienced in Operational Technology (OT) 
-                        Security ICS, SCADA PLC Modbus+</li>
-                    <li>Direct reporting to CISO and work with other Clevel Executives as well</li>
-                    <li>Skilled Security Risk Assessment, Security Risk 
-                        Mitigation Management</li>
-                    <li>AWS & AZURE Cloud Security and Cyber 
-                        Security; Security Policy and Practices</li>
-                    <li> Architectural Framework development, Security 
-                        standards NIST CIS OSA ISO 27K, ASD ACSC 
-                        ISM, PSPF</li>
-                    <li>Expert in Government security regulations, 
-                        regulation and compliance checks, and 
-                        auditing (edited)</li>
-                </ul>
+                <p>Suresh Kumar acts as our CISO (Chief Information and Security Officer) for Data Reveal.AI. He brings over 25 years of experience working in Cyber Security Architecture, Risk, Compliances, and ISO Quality auditing. He leads a cross-functional team, building unique security architectures that are helping the clients to prevent and reduce cyber attacks. Previously, Suresh worked as an Enterprise Security Architect in various Federal and State government agencies, the Department of Defense, Border Security, Customs & Immigration, Taxation, Home Affairs, Transport, including AMEX Bank, Insurance, IBM and HP. He improved products and services related to security defences, digital forensics, crime prevention, cyber hacking preventions, containing data breaches, cyber-attack mitigation, risk mitigation, application security, cloud security, threat intelligence to customers by using architectural security solutions aligning with CISA, NIST, and ISO27K recommendations, closely integrated with the advanced technologies of AI and ML concepts.
                     </p>
+                    <p>Suresh holds a Master of Engineering (M.Eng.) degree, specializing in Applied Electronics.</p>
             </div>
         </div>
     </div>

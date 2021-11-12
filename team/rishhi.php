@@ -21,14 +21,14 @@
   <!-- Member Details -->
 <section for="Teamates">
     <div class="container">
-        <div class="row m-3" id="team-row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <img src="../images/team/rishi.jpeg" alt="" height="100%" width="60%">
+        <div class="row m-5" id="team-row">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-12 text-center">
+                <img src="../images/team/rishi.jpeg" alt="" height="100%" width="80%">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="col-lg-7 col-md-6 col-sm-12 col-12">
                 <h2 class="mt-lg-0 mt-3">Rishhi Balakrishnan</h2>
-                <p class="text-muted"> BSC -
-                    Computer Engineering -AIML Engineer - Harmari</p>
+                <p>Rishhi is our Principal Architect for Data Reveal.AI and leads our AI/ML E2E product platforms and solutions. Rishhi has experience architecting, building, and deploying AI/ML products across many form factors and devices, including sensor devices.</p>
+                <p>Rishhi holds a Bachelor’s degree in Computer Science.</p>
             </div>
         </div>
     </div>

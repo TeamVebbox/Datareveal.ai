@@ -21,20 +21,13 @@
   <!-- Member Details -->
 <section for="Teamates">
     <div class="container">
-        <div class="row m-3" id="team-row">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <img src="../images/team/maria.jpeg" alt="" height="100%" width="60%">
+        <div class="row m-5" id="team-row">
+            <div class="col-lg-5 col-md-6 col-sm-12 col-12 text-center">
+                <img src="../images/team/maria.jpeg" alt="" height="100%" width="80%">
             </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <div class="col-lg-7 col-md-6 col-sm-12 col-12">
                 <h2 class="mt-lg-0 mt-3">Dr.Maria Viqar</h2>
-                <p class="text-muted">MD, FACC 
-                    <ul>
-                        <li>FHRSBoard-certified in Cardiovascular
-                            Diseases</li>
-                            <li>Board-certified in Clinical Cardiac</li>
-                            <li>Electrophysiology- Mayo Clinic, Oakwood 
-                                Healthcare</li>
-                    </ul>
+                <p>Dr Maria Viqar acts as our Chief Medical Officer (CMO) and leads the vision, development, and execution of Data Reveal AI's health strategy for clinical products, clinical research, and analytics. She has received her clinical training and participated in research programs at the world-renowned, prestigious Mayo Clinic in cardiovascular diseases. In addition, she has held leadership positions in clinical administration. Her areas of focus are health analytics and research, which ultimately benefit patient care at all healthcare systems. She is passionate about the use of modern technologies to improve patient lives through genomics and personalized medicine. She is thrilled about the Data Reveal AI's technology tool to make it easier for health systems and providers to connect data across sources and share that data with patients. She enjoys travelling.
                     </p>
             </div>
         </div>

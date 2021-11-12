@@ -21,13 +21,13 @@
   <!-- Member Details -->
 <section for="Teamates">
     <div class="container">
-        <div class="row m-3" id="team-row">
+        <div class="row m-5" id="team-row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <img src="../images/team/mohamed.jpeg" alt="" height="100%" width="60%">
+                <img src="../images/team/mohamed.jpeg" alt="" height="100%" width="70%">
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                <h2 class="mt-lg-0 mt-3">Dr.Mohamed Ibrahim</h2>
-                <p class="text-muted">...</p>
+                <h2 class="mt-lg-0 mt-3">Dr.Mohamed Ibrahim Mohamed </h2>
+                <p>Mohamed is our CIO (Chief Information Officer) and Chief Computer Vision Scientist. He brings Science, Engineering and technology execution experience to Data Reveal.AI. He currently leads multiple teams that build practical applications of visual AI in healthcare, such as designing an action recognition module for the SARAS project. Recently, he has been working closely with MOFHS team to develop unique tools that simplify the processes of integration and decoupling. Before Oxford Brookes, he worked as a computer vision engineer/architect at Huawei, focusing on machine learning techniques and software engineering in mobile phones.</p>
             </div>
         </div>
     </div>

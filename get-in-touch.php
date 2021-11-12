@@ -7,13 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        #get-in-touch {
-    background: linear-gradient(
-      90deg,
-      rgba(16, 44, 131, 1) 0%,
-      rgba(22, 111, 147, 1) 100%
-    );
-  }
+    #get-in-touch {
+        background-image: url(./images/blue_bg.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
   #get-in-touch h2 {
     font-weight: bold;
   }
@@ -28,7 +26,7 @@
             </h2>
 
             <div class="text-center pt-4" data-aos="fade-up" data-aos-duration="1500">
-                <button type="button" class="btn btn-outline-warning">Get In Touch</button>
+                <a href="./contact.php"><button type="button" class="btn btn-outline-warning">Get In Touch</button></a>
             </div>
         </div>
     </section>

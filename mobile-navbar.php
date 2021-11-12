@@ -215,8 +215,8 @@
                     <div class="mob-dropdown">
                         <button class="mob-dropbtn">INDUSTRIES</button>
                         <div class="mob-dropdown-content">
-                            <a href="legal.php">Healthcare</a>
-                            <a href="insurance.php">Insurance</a>
+                            <a href="#">Healthcare</a>
+                            <a href="#">Insurance</a>
                         </div>
                     </div><br>
                     <div class="mob-dropdown">

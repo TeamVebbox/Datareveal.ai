@@ -64,35 +64,32 @@
                     customized end-to-end solutions.</p>
                 <div class="col-lg-4 col-md-4 col-sm-12" id="vision-content-one" data-aos="fade-up"
                     data-aos-easing="linear" data-aos-duration="1000">
-                    <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-1.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 mb-2 text-center" id="service-card">
+                        <img src="images/vision-serv-one.png" class="img-fluid" height="30%" width="30%" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text">Image Classification, Analysis and Anomaly Detection</p>
-                            <a href="#" class="btn btn-primary">More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-two" data-aos="fade-up"
                     data-aos-easing="linear" data-aos-duration="1000">
-                    <div class="card p-3 mb-2" id="service-card">
-                        <img src="images/service-2.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 mb-2 text-center" id="service-card">
+                        <img src="images/vision-serv-two.png" class="img-fluid" height="30%" width="30%" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text">Video Analytics, Search, and Object Tracking</p>
-                            <a href="#" class="btn btn-primary">More</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 mx-sm-auto" id="vision-content-three" data-aos="fade-up"
                     data-aos-easing="linear" data-aos-duration="1000">
-                    <div class="card p-3" id="service-card">
-                        <img src="images/service-3.webp" class="card-img-top" alt="vision">
+                    <div class="p-3 text-center" id="service-card">
+                        <img src="images/vision-serv-three.png" class="img-fluid" height="40%" width="30%" alt="vision">
                         <div class="card-body">
                             <!-- <h5 class="card-title">Card title</h5> -->
                             <p class="card-text">Intelligent OCR, Document Classification, and Text Extraction
                             </p>
-                            <a href="#" class="btn btn-primary">More</a>
                         </div>
                     </div>
                 </div>
